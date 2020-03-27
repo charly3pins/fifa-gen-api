@@ -1,6 +1,6 @@
-# fifa-scraper
+# fifa-gen-api
 
-Web Scraper to do the initial population of the Database for the FIFA information:
+API for manage the FIFA tournaments generator:
 - Leagues
 - Teams
 - Players
