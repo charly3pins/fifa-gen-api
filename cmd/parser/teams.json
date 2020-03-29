@@ -1,0 +1,4262 @@
+[
+    {
+        "link": "https://www.fifaindex.com/es/team/241/fc-barcelona/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/241.png",
+        "name": "FC Barcelona",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/243/real-madrid/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/243.png",
+        "name": "Real Madrid",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/45/juventus/",
+        "img": "https://www.fifaindex.com/static/FIFA19/images/crest/5/light/45.png",
+        "name": "Juventus",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/73/psg/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/73.png",
+        "name": "PSG",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/10/manchester-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/10.png",
+        "name": "Manchester City",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/9/liverpool/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/9.png",
+        "name": "Liverpool",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/21/fc-bayern/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/21.png",
+        "name": "FC Bayern",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/240/atl%C3%A9tico-madrid/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/240.png",
+        "name": "Atlético Madrid",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/18/tottenham/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/18.png",
+        "name": "Tottenham",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/48/n%C3%A1poles/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/48.png",
+        "name": "Nápoles",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/22/bor-dortmund/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/22.png",
+        "name": "Bor. Dortmund",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/44/inter-de-mil%C3%A1n/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/44.png",
+        "name": "Inter de Milán",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/11/manchester-utd/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/11.png",
+        "name": "Manchester Utd",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/46/lazio/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/46.png",
+        "name": "Lazio",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/461/valencia-cf/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/461.png",
+        "name": "Valencia CF",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/5/chelsea/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/5.png",
+        "name": "Chelsea",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1/arsenal/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1.png",
+        "name": "Arsenal",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112172/rb-leipzig/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112172.png",
+        "name": "RB Leipzig",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/449/real-betis/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/449.png",
+        "name": "Real Betis",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/32/bayer-04/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/32.png",
+        "name": "Bayer 04",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/481/sevilla-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/481.png",
+        "name": "Sevilla FC",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/245/ajax/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/245.png",
+        "name": "Ajax",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/47/milan/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/47.png",
+        "name": "Milan",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/52/roma/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/52.png",
+        "name": "Roma",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/39/atalanta/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/39.png",
+        "name": "Atalanta",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/457/real-sociedad/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/457.png",
+        "name": "Real Sociedad",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/483/villarreal-cf/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/483.png",
+        "name": "Villarreal CF",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/7/everton/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/7.png",
+        "name": "Everton",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/448/athletic-club/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/448.png",
+        "name": "Athletic Club",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/95/leicester-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/95.png",
+        "name": "Leicester City",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/66/olympique-lyon/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/66.png",
+        "name": "Olympique Lyon",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/234/sl-benfica/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/234.png",
+        "name": "SL Benfica",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/23/mgladbach/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/23.png",
+        "name": "M'gladbach",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/236/fc-porto/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/236.png",
+        "name": "FC Porto",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/19/west-ham-utd/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/19.png",
+        "name": "West Ham Utd",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/219/o-marsella/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/219.png",
+        "name": "O. Marsella",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1860/getafe-cf/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1860.png",
+        "name": "Getafe CF",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110/wolves/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110.png",
+        "name": "Wolves",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/69/as-monaco/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/69.png",
+        "name": "AS Monaco",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/54/torino/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/54.png",
+        "name": "Torino",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/450/rc-celta/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/450.png",
+        "name": "RC Celta",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/325/galatasaray/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/325.png",
+        "name": "Galatasaray",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/467/sd-eibar/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/467.png",
+        "name": "SD Eibar",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1876/river-plate/",
+        "img": "https://www.fifaindex.com/static/FIFA19/images/crest/5/light/1876.png",
+        "name": "River Plate",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1824/eint-frankfurt/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1824.png",
+        "name": "Eint. Frankfurt",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/175/vfl-wolfsburgo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/175.png",
+        "name": "VfL Wolfsburgo",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1853/levante-ud/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1853.png",
+        "name": "Levante UD",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/452/rcd-espanyol/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/452.png",
+        "name": "RCD Espanyol",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/65/losc-lille/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/65.png",
+        "name": "LOSC Lille",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/10029/tsg-hoffenheim/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/10029.png",
+        "name": "TSG Hoffenheim",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1795/watford/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1795.png",
+        "name": "Watford",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/13/newcastle-utd/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/13.png",
+        "name": "Newcastle Utd",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/34/fc-schalke-04/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/34.png",
+        "name": "FC Schalke 04",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/38/werder-bremen/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/38.png",
+        "name": "Werder Bremen",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1799/crystal-palace/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1799.png",
+        "name": "Crystal Palace",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1943/afc-bournemouth/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1943.png",
+        "name": "AFC Bournemouth",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/327/be%C5%9Fikta%C5%9F/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/327.png",
+        "name": "Beşiktaş",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101085/racing-club/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101085.png",
+        "name": "Racing Club",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1043/flamengo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1043.png",
+        "name": "Flamengo",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1842/cagliari/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1842.png",
+        "name": "Cagliari",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1896/sc-braga/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1896.png",
+        "name": "SC Braga",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1796/burnley/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1796.png",
+        "name": "Burnley",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1877/boca-juniors/",
+        "img": "https://www.fifaindex.com/static/FIFA18/images/crest/5/light/1877.png",
+        "name": "Boca Juniors",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/166/hertha-bsc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/166.png",
+        "name": "Hertha BSC",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/2/aston-villa/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/2.png",
+        "name": "Aston Villa",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1808/brighton/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1808.png",
+        "name": "Brighton",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/462/r-valladolid-cf/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/462.png",
+        "name": "R. Valladolid CF",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/463/d-alav%C3%A9s/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/463.png",
+        "name": "D. Alavés",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110374/fiorentina/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110374.png",
+        "name": "Fiorentina",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/74/stade-rennais/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/74.png",
+        "name": "Stade Rennais",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/17/southampton/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/17.png",
+        "name": "Southampton",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/231/club-brujas/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/231.png",
+        "name": "Club Brujas",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/237/sporting-cp/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/237.png",
+        "name": "Sporting CP",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100765/lokomotiv-mosc%C3%BA/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100765.png",
+        "name": "Lokomotiv Moscú",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1819/as-saint-%C3%A9tienne/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1819.png",
+        "name": "AS Saint-Étienne",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/383/palmeiras/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/383.png",
+        "name": "Palmeiras",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101059/shakhtar-donetsk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101059.png",
+        "name": "Shakhtar Donetsk",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/70/montpellier-hsc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/70.png",
+        "name": "Montpellier HSC",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/280/olympiacos-cfp/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/280.png",
+        "name": "Olympiacos CFP",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100409/fc-augsburgo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100409.png",
+        "name": "FC Augsburgo",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1970/tigres/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1970.png",
+        "name": "Tigres",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/326/fenerbah%C3%A7e/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/326.png",
+        "name": "Fenerbahçe",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/31/1-fc-colonia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/31.png",
+        "name": "1. FC Colonia",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110832/granada-cf/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110832.png",
+        "name": "Granada CF",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101014/medipol-ba%C5%9Fak%C5%9Fehir/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101014.png",
+        "name": "Medipol Başakşehir",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/247/psv/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/247.png",
+        "name": "PSV",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/59/giron-burdeos/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/59.png",
+        "name": "Giron. Burdeos",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100888/cd-legan%C3%A9s/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100888.png",
+        "name": "CD Leganés",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/598/s%C3%A3o-paulo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/598.png",
+        "name": "São Paulo",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110556/genoa/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110556.png",
+        "name": "Genoa",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/169/1-fsv-mainz-05/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/169.png",
+        "name": "1. FSV Mainz 05",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/189/bolonia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/189.png",
+        "name": "Bolonia",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1794/sheffield-utd/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1794.png",
+        "name": "Sheffield Utd",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/72/ogc-niza/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/72.png",
+        "name": "OGC Niza",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1629/gr%C3%AAmio/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1629.png",
+        "name": "Grêmio",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1837/sampdoria/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1837.png",
+        "name": "Sampdoria",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/605/al-hilal/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/605.png",
+        "name": "Al Hilal",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110062/girona-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110062.png",
+        "name": "Girona FC",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1035/atl%C3%A9tico-mineiro/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1035.png",
+        "name": "Atlético Mineiro",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/674/kaa-gent/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/674.png",
+        "name": "KAA Gent",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/479/ca-osasuna/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/479.png",
+        "name": "CA Osasuna",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1792/norwich-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1792.png",
+        "name": "Norwich City",
+        "league": "Premier League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111974/sassuolo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111974.png",
+        "name": "Sassuolo",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/55/udinese/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/55.png",
+        "name": "Udinese",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/246/feyenoord/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/246.png",
+        "name": "Feyenoord",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/76/rc-estrasburgo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/76.png",
+        "name": "RC Estrasburgo",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/25/sc-friburgo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/25.png",
+        "name": "SC Friburgo",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/71/fc-nantes/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/71.png",
+        "name": "FC Nantes",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1530/angers-sco/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1530.png",
+        "name": "Angers SCO",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1032/monterrey/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1032.png",
+        "name": "Monterrey",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101047/dynamo-kyiv/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101047.png",
+        "name": "Dynamo Kyiv",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/78/celtic/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/78.png",
+        "name": "Celtic",
+        "league": "Scottish Prem"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100767/spartak-mosc%C3%BA/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100767.png",
+        "name": "Spartak Moscú",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1906/az/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1906.png",
+        "name": "AZ",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/50/parma/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/50.png",
+        "name": "Parma",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/206/hellas-verona/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/206.png",
+        "name": "Hellas Verona",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110093/independiente/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110093.png",
+        "name": "Independiente",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1048/internacional/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1048.png",
+        "name": "Internacional",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/393/paok/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/393.png",
+        "name": "PAOK",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/229/rsc-anderlecht/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/229.png",
+        "name": "RSC Anderlecht",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/266/slavia-praha/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/266.png",
+        "name": "Slavia Praha",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1887/vit-guimar%C3%A3es/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1887.png",
+        "name": "Vit. Guimarães",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/230/royal-amberes-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/230.png",
+        "name": "Royal Amberes FC",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/436/trabzonspor/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/436.png",
+        "name": "Trabzonspor",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110406/col%C3%B3n/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110406.png",
+        "name": "Colón",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/453/rcd-mallorca/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/453.png",
+        "name": "RCD Mallorca",
+        "league": "LaLiga Santander"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/211/dinamo-zagreb/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/211.png",
+        "name": "Dinamo Zagreb",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/568/cruzeiro/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/568.png",
+        "name": "Cruzeiro",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1013/san-lorenzo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1013.png",
+        "name": "San Lorenzo",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/144/fulham/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/144.png",
+        "name": "Fulham",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112791/spal/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112791.png",
+        "name": "SPAL",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/278/aek-athens/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/278.png",
+        "name": "AEK Athens",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110395/lan%C3%BAs/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110395.png",
+        "name": "Lanús",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/315/cska-mosc%C3%BA/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/315.png",
+        "name": "CSKA Moscú",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110636/f-d%C3%BCsseldorf/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110636.png",
+        "name": "F. Düsseldorf",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1053/santos/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1053.png",
+        "name": "Santos",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/191/rb-salzburgo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/191.png",
+        "name": "RB Salzburgo",
+        "league": "Ö. Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1816/amiens-sc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1816.png",
+        "name": "Amiens SC",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/86/rangers/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/86.png",
+        "name": "Rangers",
+        "league": "Scottish Prem"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101108/olimpia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101108.png",
+        "name": "Olimpia",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/8/leeds-utd/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/8.png",
+        "name": "Leeds Utd",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/744/rio-ave-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/744.png",
+        "name": "Rio Ave FC",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1809/toulouse-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1809.png",
+        "name": "Toulouse FC",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101088/v%C3%A9lez-sarsfield/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101088.png",
+        "name": "Vélez Sarsfield",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1878/cruz-azul/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1878.png",
+        "name": "Cruz Azul",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/28/hamburgo-sv/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/28.png",
+        "name": "Hamburgo SV",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/673/krc-genk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/673.png",
+        "name": "KRC Genk",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/109/west-bromwich/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/109.png",
+        "name": "West Bromwich",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/267/sparta-praha/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/267.png",
+        "name": "Sparta Praha",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/567/fluminense/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/567.png",
+        "name": "Fluminense",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/379/stade-de-reims/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/379.png",
+        "name": "Stade de Reims",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1879/am%C3%A9rica/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1879.png",
+        "name": "América",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/900/bsc-young-boys/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/900.png",
+        "name": "BSC Young Boys",
+        "league": "RSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113142/alanyaspor/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113142.png",
+        "name": "Alanyaspor",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/190/brescia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/190.png",
+        "name": "Brescia",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112809/fc-famalic%C3%A3o/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112809.png",
+        "name": "FC Famalicão",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110975/uni-cat%C3%B3lica/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110975.png",
+        "name": "Uni. Católica",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101026/g%C3%B6ztepe/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101026.png",
+        "name": "Göztepe",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110781/le%C3%B3n/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110781.png",
+        "name": "León",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110839/sd-huesca/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110839.png",
+        "name": "SD Huesca",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/244/r-zaragoza/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/244.png",
+        "name": "R. Zaragoza",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/14/notting-forest/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/14.png",
+        "name": "Notting. Forest",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/517/botafogo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/517.png",
+        "name": "Botafogo",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/68/fc-metz/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/68.png",
+        "name": "FC Metz",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/819/fc-k%C3%B8benhavn/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/819.png",
+        "name": "FC København",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1831/union-berlin/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1831.png",
+        "name": "Union Berlin",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1925/brentford/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1925.png",
+        "name": "Brentford",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/896/fc-basilea-1893/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/896.png",
+        "name": "FC Basilea 1893",
+        "league": "RSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/36/vfb-stuttgart/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/36.png",
+        "name": "VfB Stuttgart",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/232/standard-lieja/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/232.png",
+        "name": "Standard Lieja",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110468/viktoria-plze%C5%88/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110468.png",
+        "name": "Viktoria Plzeň",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/378/stade-brestois/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/378.png",
+        "name": "Stade Brestois",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/347/lecce/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/347.png",
+        "name": "Lecce",
+        "league": "Serie A TIM"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/485/hannover-96/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/485.png",
+        "name": "Hannover 96",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110980/colo-colo/",
+        "img": "https://www.fifaindex.com/static/FIFA17/images/crest/5/light/110980.png",
+        "name": "Colo-Colo",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1961/cardiff-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1961.png",
+        "name": "Cardiff City",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101083/estudiantes/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101083.png",
+        "name": "Estudiantes",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1903/fc-utrecht/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1903.png",
+        "name": "FC Utrecht",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/480/rayo-vallecano/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/480.png",
+        "name": "Rayo Vallecano",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112139/al-nassr/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112139.png",
+        "name": "Al Nassr",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112387/al-ahli/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112387.png",
+        "name": "Al Ahli",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111839/guangzhou/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111839.png",
+        "name": "Guangzhou",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111651/toronto-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111651.png",
+        "name": "Toronto FC",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111144/seattle-sounders/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111144.png",
+        "name": "Seattle Sounders",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110580/rosario-central/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110580.png",
+        "name": "Rosario Central",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1884/panathinaikos/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1884.png",
+        "name": "Panathinaikos",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/741/antalyaspor/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/741.png",
+        "name": "Antalyaspor",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/696/sporting-kc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/696.png",
+        "name": "Sporting KC",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111042/goi%C3%A1s/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111042.png",
+        "name": "Goiás",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111710/defensa/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111710.png",
+        "name": "Defensa",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111140/portland-timbers/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111140.png",
+        "name": "Portland Timbers",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110569/dijon-fco/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110569.png",
+        "name": "Dijon FCO",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/569/vasco-da-gama/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/569.png",
+        "name": "Vasco da Gama",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1919/bristol-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1919.png",
+        "name": "Bristol City",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110776/gazi%C5%9Fehir-gaziantep/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110776.png",
+        "name": "Gazişehir Gaziantep",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112670/talleres/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112670.png",
+        "name": "Talleres",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/242/rc-deportivo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/242.png",
+        "name": "RC Deportivo",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/224/n%C3%AEmes-olympique/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/224.png",
+        "name": "Nîmes Olympique",
+        "league": "Ligue 1 Conforama"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111678/tijuana/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111678.png",
+        "name": "Tijuana",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101033/konyaspor/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101033.png",
+        "name": "Konyaspor",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113677/csa/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113677.png",
+        "name": "CSA",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110394/arsenal/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110394.png",
+        "name": "Arsenal",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110147/pachuca/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110147.png",
+        "name": "Pachuca",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110404/banfield/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110404.png",
+        "name": "Banfield",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1882/toluca/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1882.png",
+        "name": "Toluca",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112026/benevento/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112026.png",
+        "name": "Benevento",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1900/moreirense-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1900.png",
+        "name": "Moreirense FC",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1880/guadalajara/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1880.png",
+        "name": "Guadalajara",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/573/m%C3%A1laga-cf/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/573.png",
+        "name": "Málaga CF",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/171/1-fc-n%C3%BAremberg/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/171.png",
+        "name": "1. FC Núremberg",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1807/sheffield-wed/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1807.png",
+        "name": "Sheffield Wed.",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/91/derby-county/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/91.png",
+        "name": "Derby County",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101110/pe%C3%B1arol/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101110.png",
+        "name": "Peñarol",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1968/c%C3%A1diz-cf/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1968.png",
+        "name": "Cádiz CF",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1598/bah%C3%ADa/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1598.png",
+        "name": "Bahía",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110144/santos-laguna/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110144.png",
+        "name": "Santos Laguna",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1039/athletico-pr/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1039.png",
+        "name": "Athletico-PR",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1898/boavista-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1898.png",
+        "name": "Boavista FC",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1801/preston/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1801.png",
+        "name": "Preston",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/670/sp-charleroi/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/670.png",
+        "name": "Sp. Charleroi",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101037/%C3%A7aykur-rizespor/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101037.png",
+        "name": "Çaykur Rizespor",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111008/libertad/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111008.png",
+        "name": "Libertad",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101041/sivasspor/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101041.png",
+        "name": "Sivasspor",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114385/cfr-cluj/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114385.png",
+        "name": "CFR Cluj",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/687/columbus-crew/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/687.png",
+        "name": "Columbus Crew",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112476/chapecoense/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112476.png",
+        "name": "Chapecoense",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110396/newells/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110396.png",
+        "name": "Newell's",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1806/stoke-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1806.png",
+        "name": "Stoke City",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1861/ud-almer%C3%ADa/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1861.png",
+        "name": "UD Almería",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/697/la-galaxy/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/697.png",
+        "name": "LA Galaxy",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112885/atlanta-united/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112885.png",
+        "name": "Atlanta United",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/688/d-c-united/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/688.png",
+        "name": "D.C. United",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1457/denizlispor/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1457.png",
+        "name": "Denizlispor",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101101/junior/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101101.png",
+        "name": "Junior",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112996/lafc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112996.png",
+        "name": "LAFC",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1028/monarcas-morelia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1028.png",
+        "name": "Monarcas Morelia",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/3/blackburn/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/3.png",
+        "name": "Blackburn",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101025/gen%C3%A7lerbirli%C4%9Fi/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101025.png",
+        "name": "Gençlerbirliği",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101099/am%C3%A9rica-de-cali/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101099.png",
+        "name": "América de Cali",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111339/kasimpa%C5%9Fa/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111339.png",
+        "name": "Kasimpaşa",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111708/atl%C3%A9tico-tucum%C3%A1n/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111708.png",
+        "name": "Atlético Tucumán",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/472/ud-las-palmas/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/472.png",
+        "name": "UD Las Palmas",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110929/kaizer-chiefs/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110929.png",
+        "name": "Kaizer Chiefs",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111657/frosinone/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111657.png",
+        "name": "Frosinone",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100761/fcsb/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100761.png",
+        "name": "FCSB",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111019/argentinos-jrs/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111019.png",
+        "name": "Argentinos Jrs.",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/88/birmingham-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/88.png",
+        "name": "Birmingham City",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1888/gil-vicente/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1888.png",
+        "name": "Gil Vicente",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/15005/zulte-waregem/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/15005.png",
+        "name": "Zulte Waregem",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/10031/portimonense-sc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/10031.png",
+        "name": "Portimonense SC",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/159/arminia-bielefeld/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/159.png",
+        "name": "Arminia Bielefeld",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111716/uni%C3%B3n/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111716.png",
+        "name": "Unión",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1909/vitesse/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1909.png",
+        "name": "Vitesse",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1473/ulsan-hyundai/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1473.png",
+        "name": "Ulsan Hyundai",
+        "league": "K-League 1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/217/fc-lorient/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/217.png",
+        "name": "FC Lorient",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101114/atlas/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101114.png",
+        "name": "Atlas",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1746/empoli/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1746.png",
+        "name": "Empoli",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111976/ava%C3%AD/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111976.png",
+        "name": "Avaí",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1793/reading/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1793.png",
+        "name": "Reading",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/12/middlesbrough/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/12.png",
+        "name": "Middlesbrough",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113259/yeni-malatyaspor/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113259.png",
+        "name": "Yeni Malatyaspor",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110152/puebla/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110152.png",
+        "name": "Puebla",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/252/lask-linz/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/252.png",
+        "name": "LASK Linz",
+        "league": "Ö. Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111235/1-fc-heidenheim/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111235.png",
+        "name": "1. FC Heidenheim",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1939/huddersfield/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1939.png",
+        "name": "Huddersfield",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1854/albacete-bp/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1854.png",
+        "name": "Albacete BP",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/459/r-sporting/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/459.png",
+        "name": "R. Sporting",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110827/r-oviedo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110827.png",
+        "name": "R. Oviedo",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1893/mar%C3%ADtimo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1893.png",
+        "name": "Marítimo",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101020/kayserispor/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101020.png",
+        "name": "Kayserispor",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/320/malm%C3%B6-ff/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/320.png",
+        "name": "Malmö FF",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112828/new-york-city-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112828.png",
+        "name": "New York City FC",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111325/nacional/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111325.png",
+        "name": "Nacional",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/665/vitoria-set%C3%BAbal/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/665.png",
+        "name": "Vitoria Setúbal",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101084/gimnasia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101084.png",
+        "name": "Gimnasia",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/97/millwall/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/97.png",
+        "name": "Millwall",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111052/fortaleza/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111052.png",
+        "name": "Fortaleza",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101100/atl-nacional/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101100.png",
+        "name": "Atl. Nacional",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1477/jeonbuk-hyundai/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1477.png",
+        "name": "Jeonbuk Hyundai",
+        "league": "K-League 1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101007/mke-ankarag%C3%BCc%C3%BC/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101007.png",
+        "name": "MKE Ankaragücü",
+        "league": "Süper Lig"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1960/swansea-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1960.png",
+        "name": "Swansea City",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111711/hurac%C3%A1n/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111711.png",
+        "name": "Huracán",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/468/elche-cf/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/468.png",
+        "name": "Elche CF",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/64/rc-lens/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/64.png",
+        "name": "RC Lens",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/417/molde-fk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/417.png",
+        "name": "Molde FK",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1881/u-n-a-m/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1881.png",
+        "name": "U.N.A.M.",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111730/kawasaki-front/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111730.png",
+        "name": "Kawasaki Front.",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101121/necaxa/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101121.png",
+        "name": "Necaxa",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/693/chicago-fire/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/693.png",
+        "name": "Chicago Fire",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112540/shanghai-sipg/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112540.png",
+        "name": "Shanghai SIPG",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111139/montreal-impact/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111139.png",
+        "name": "Montreal Impact",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/192/chievo-verona/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/192.png",
+        "name": "Chievo Verona",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101146/vissel-kobe/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101146.png",
+        "name": "Vissel Kobe",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110502/sv-darmstadt/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110502.png",
+        "name": "SV Darmstadt",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/62/ea-guingamp/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/62.png",
+        "name": "EA Guingamp",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/15/qpr/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/15.png",
+        "name": "QPR",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112847/astra-giurgiu/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112847.png",
+        "name": "Astra Giurgiu",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/691/new-england/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/691.png",
+        "name": "New England",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/708/hammarby/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/708.png",
+        "name": "Hammarby",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112678/atl%C3%A9tico-de-san-luis/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112678.png",
+        "name": "Atlético de San Luis",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/160/bochum/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/160.png",
+        "name": "Bochum",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113149/fc-cincinnati/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113149.png",
+        "name": "FC Cincinnati",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101151/yokohama-f-m/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101151.png",
+        "name": "Yokohama F. M.",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/10030/paderborn/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/10030.png",
+        "name": "Paderborn",
+        "league": "Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/695/fc-dallas/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/695.png",
+        "name": "FC Dallas",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113134/fc-ju%C3%A1rez/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113134.png",
+        "name": "FC Juárez",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111560/excel-mouscron/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111560.png",
+        "name": "Excel Mouscron",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/254/sk-rapid-viena/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/254.png",
+        "name": "SK Rapid Viena",
+        "league": "Ö. Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112134/philadelphia-u/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112134.png",
+        "name": "Philadelphia U.",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/2013/kas-eupen/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/2013.png",
+        "name": "KAS Eupen",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110329/fc-st-pauli/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110329.png",
+        "name": "FC St. Pauli",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110150/quer%C3%A9taro/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110150.png",
+        "name": "Querétaro",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110724/fc-malinas/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110724.png",
+        "name": "FC Malinas",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101147/kashima-antlers/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101147.png",
+        "name": "Kashima Antlers",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/209/sk-sturm-graz/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/209.png",
+        "name": "SK Sturm Graz",
+        "league": "Ö. Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112093/gamba-osaka/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112093.png",
+        "name": "Gamba Osaka",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100831/ad-alcorc%C3%B3n/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100831.png",
+        "name": "AD Alcorcón",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/199/perugia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/199.png",
+        "name": "Perugia",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/260/cd-tenerife/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/260.png",
+        "name": "CD Tenerife",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111928/sj-earthquakes/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111928.png",
+        "name": "SJ Earthquakes",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1892/pa%C3%A7os-ferreira/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1892.png",
+        "name": "Paços Ferreira",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1750/c%C3%ADrculo-brujas/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1750.png",
+        "name": "Círculo Brujas",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/689/ny-red-bulls/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/689.png",
+        "name": "NY Red Bulls",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1438/santa-clara/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1438.png",
+        "name": "Santa Clara",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/682/kv-oostende/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/682.png",
+        "name": "KV Oostende",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110734/crotone/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110734.png",
+        "name": "Crotone",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101105/millonarios/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101105.png",
+        "name": "Millonarios",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110178/sandhausen/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110178.png",
+        "name": "Sandhausen",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112516/cd-tondela/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112516.png",
+        "name": "CD Tondela",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101148/cerezo-osaka/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101148.png",
+        "name": "Cerezo Osaka",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1917/wigan-athletic/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1917.png",
+        "name": "Wigan Athletic",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/294/es-troyes-ac/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/294.png",
+        "name": "ES Troyes AC",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1908/fc-twente/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1908.png",
+        "name": "FC Twente",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1889/belenenses/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1889.png",
+        "name": "Belenenses",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101150/fc-tokyo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101150.png",
+        "name": "FC Tokyo",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1907/willem-ii/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1907.png",
+        "name": "Willem II",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110831/cd-lugo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110831.png",
+        "name": "CD Lugo",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100081/kv-cortrique/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100081.png",
+        "name": "KV Cortrique",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/89/charlton-athl/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/89.png",
+        "name": "Charlton Athl.",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/298/rosenborg-bk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/298.png",
+        "name": "Rosenborg BK",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1516/fc-midtjylland/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1516.png",
+        "name": "FC Midtjylland",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112908/independiente/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112908.png",
+        "name": "Independiente",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/698/houston-dynamo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/698.png",
+        "name": "Houston Dynamo",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/308/cs-u-craiova/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/308.png",
+        "name": "CS U Craiova",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111722/deportes-tolima/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111722.png",
+        "name": "Deportes Tolima",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/200/pescara/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/200.png",
+        "name": "Pescara",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/503/dynamo-dresden/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/503.png",
+        "name": "Dynamo Dresden",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111724/shandong-luneng/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111724.png",
+        "name": "Shandong Luneng",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111701/al-ain-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111701.png",
+        "name": "Al Ain FC",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111768/beijing-guoan/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111768.png",
+        "name": "Beijing Guoan",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/694/colorado-rapids/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/694.png",
+        "name": "Colorado Rapids",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111674/al-shabab/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111674.png",
+        "name": "Al Shabab",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101112/whitecaps-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101112.png",
+        "name": "Whitecaps FC",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/983/suwon-samsung/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/983.png",
+        "name": "Suwon Samsung",
+        "league": "K-League 1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/492/wiesbaden/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/492.png",
+        "name": "Wiesbaden",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111065/real-salt-lake/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111065.png",
+        "name": "Real Salt Lake",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1913/sc-heerenveen/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1913.png",
+        "name": "sc Heerenveen",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/2023/sd-ponferradina/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/2023.png",
+        "name": "SD Ponferradina",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1738/le-havre-ac/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1738.png",
+        "name": "Le Havre AC",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110955/shangh%C3%A1i-shenhua/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110955.png",
+        "name": "Shanghái Shenhua",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101104/santa-fe/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101104.png",
+        "name": "Santa Fe",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/506/erzgebirge-aue/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/506.png",
+        "name": "Erzgebirge Aue",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/57/aj-auxerre/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/57.png",
+        "name": "AJ Auxerre",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112606/orlando-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112606.png",
+        "name": "Orlando City",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/607/al-ittihad/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/607.png",
+        "name": "Al Ittihad",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112092/nagoya-grampus/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112092.png",
+        "name": "Nagoya Grampus",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112444/h-c-sapporo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112444.png",
+        "name": "H.C. Sapporo",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/165/f%C3%BCrth/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/165.png",
+        "name": "Fürth",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101103/indep-medell%C3%ADn/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101103.png",
+        "name": "Indep. Medellín",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/77/aberdeen/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/77.png",
+        "name": "Aberdeen",
+        "league": "Scottish Prem"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112584/everton-de-vi%C3%B1a/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112584.png",
+        "name": "Everton de Viña",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111575/urawa-red-diam/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111575.png",
+        "name": "Urawa Red Diam.",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101106/once-caldas/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101106.png",
+        "name": "Once Caldas",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/576/kiel/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/576.png",
+        "name": "Kiel",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110741/la-spezia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110741.png",
+        "name": "La Spezia",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/982/fc-seoul/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/982.png",
+        "name": "FC Seoul",
+        "league": "K-League 1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100628/fc-emmen/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100628.png",
+        "name": "FC Emmen",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1923/luton-town/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1923.png",
+        "name": "Luton Town",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1914/pec-zwolle/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1914.png",
+        "name": "PEC Zwolle",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1832/karlsruher-sc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1832.png",
+        "name": "Karlsruher SC",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/469/extremadura-ud/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/469.png",
+        "name": "Extremadura UD",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112393/al-taawoun/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112393.png",
+        "name": "Al Taawoun",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110373/salerno/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110373.png",
+        "name": "Salerno",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112535/uni%C3%B3n-la-calera/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112535.png",
+        "name": "Unión La Calera",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114582/binacional/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114582.png",
+        "name": "Binacional",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1871/legia-warszawa/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1871.png",
+        "name": "Legia Warszawa",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113157/sanf-hiroshima/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113157.png",
+        "name": "Sanf. Hiroshima",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110065/cf-fuenlabrada/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110065.png",
+        "name": "CF Fuenlabrada",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/15029/uni-de-chile/",
+        "img": "https://www.fifaindex.com/static/FIFA19/images/crest/5/light/15029.png",
+        "name": "Uni. de Chile",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111817/par%C3%ADs-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111817.png",
+        "name": "París FC",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1952/hull-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1952.png",
+        "name": "Hull City",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1847/ascoli/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1847.png",
+        "name": "Ascoli",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/680/sint-truiden/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/680.png",
+        "name": "Sint-Truiden",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/477/cd-numancia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/477.png",
+        "name": "CD Numancia",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/650/ado-den-haag/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/650.png",
+        "name": "ADO Den Haag",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113958/pordenone/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113958.png",
+        "name": "Pordenone",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110581/patronato/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110581.png",
+        "name": "Patronato",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111434/cremona/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111434.png",
+        "name": "Cremona",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111707/aldosivi/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111707.png",
+        "name": "Aldosivi",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110930/orlando-pirates/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110930.png",
+        "name": "Orlando Pirates",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110738/pisa/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110738.png",
+        "name": "Pisa",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110069/cd-mirand%C3%A9s/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110069.png",
+        "name": "CD Mirandés",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111706/godoy-cruz/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111706.png",
+        "name": "Godoy Cruz",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/205/venezia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/205.png",
+        "name": "Venezia",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111822/wolfsberger-ac/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111822.png",
+        "name": "Wolfsberger AC",
+        "league": "Ö. Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/487/vfl-osnabr%C3%BCck/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/487.png",
+        "name": "VfL Osnabrück",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/80/hearts/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/80.png",
+        "name": "Hearts",
+        "league": "Scottish Prem"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/210/sm-caen/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/210.png",
+        "name": "SM Caen",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110986/ldu-quito/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110986.png",
+        "name": "LDU Quito",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111138/minnesota-united/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111138.png",
+        "name": "Minnesota United",
+        "league": "MLS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110770/fc-sion/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110770.png",
+        "name": "FC Sion",
+        "league": "RSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/433/aik/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/433.png",
+        "name": "AIK",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111059/cear%C3%A1-sc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111059.png",
+        "name": "Ceará SC",
+        "league": "Liga do Brasil"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112162/jiangsu-suning/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112162.png",
+        "name": "Jiangsu Suning",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112523/la-equidad/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112523.png",
+        "name": "La Equidad",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100634/heracles-almelo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100634.png",
+        "name": "Heracles Almelo",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/256/austria-viena/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/256.png",
+        "name": "Austria Viena",
+        "league": "Ö. Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110747/cracovia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110747.png",
+        "name": "Cracovia",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111399/perth-glory/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111399.png",
+        "name": "Perth Glory",
+        "league": "Hyundai A-League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112429/guangzhou-r-f/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112429.png",
+        "name": "Guangzhou R&F",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110456/valenciennes-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110456.png",
+        "name": "Valenciennes FC",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112637/gaz-metan/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112637.png",
+        "name": "Gaz Metan",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112965/central-c%C3%B3rdoba/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112965.png",
+        "name": "Central Córdoba",
+        "league": "SAF"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112116/cd-ohiggins/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112116.png",
+        "name": "CD O'Higgins",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112578/rionegro-%C3%A1guilas/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112578.png",
+        "name": "Rionegro Águilas",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101149/shimizu-s-pulse/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101149.png",
+        "name": "Shimizu S-Pulse",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112168/cosenza/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112168.png",
+        "name": "Cosenza",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/666/desportivo-aves/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/666.png",
+        "name": "Desportivo Aves",
+        "league": "Liga NOS"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110968/bol%C3%ADvar/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110968.png",
+        "name": "Bolívar",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111328/cd-palestino/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111328.png",
+        "name": "CD Palestino",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/269/br%C3%B8ndby-if/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/269.png",
+        "name": "Brøndby IF",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/81/hibernian/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/81.png",
+        "name": "Hibernian",
+        "league": "Scottish Prem"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113147/chiavari/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113147.png",
+        "name": "Chiavari",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111010/alianza-lima/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111010.png",
+        "name": "Alianza Lima",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/456/racing/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/456.png",
+        "name": "Racing",
+        "league": "LaLiga SmartBank"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1932/barnsley/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1932.png",
+        "name": "Barnsley",
+        "league": "EFL Championship"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/710/djurg%C3%A5rdens-if/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/710.png",
+        "name": "Djurgårdens IF",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111993/cittadella/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111993.png",
+        "name": "Cittadella",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/543/ssv-jahn/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/543.png",
+        "name": "SSV Jahn",
+        "league": "Bundesliga 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113180/viitorul/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113180.png",
+        "name": "Viitorul",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1805/grenoble-foot/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1805.png",
+        "name": "Grenoble Foot",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100646/sparta-rotterdam/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100646.png",
+        "name": "Sparta Rotterdam",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/106/sunderland/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/106.png",
+        "name": "Sunderland",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/83/motherwell/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/83.png",
+        "name": "Motherwell",
+        "league": "Scottish Prem"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111086/piast-gliwice/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111086.png",
+        "name": "Piast Gliwice",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/873/lech-pozna%C5%84/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/873.png",
+        "name": "Lech Poznań",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1815/clermont-foot/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1815.png",
+        "name": "Clermont Foot",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112124/c-stabia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112124.png",
+        "name": "C. Stabia",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113183/oita-trinita/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113183.png",
+        "name": "Oita Trinita",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111091/lechia-gda%C5%84sk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111091.png",
+        "name": "Lechia Gdańsk",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112836/vegalta-sendai/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112836.png",
+        "name": "Vegalta Sendai",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1474/pohang-steelers/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1474.png",
+        "name": "Pohang Steelers",
+        "league": "K-League 1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112096/ettifaq-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112096.png",
+        "name": "Ettifaq FC",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1478/jeju-united/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1478.png",
+        "name": "Jeju United",
+        "league": "K-League 1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1844/livorno/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1844.png",
+        "name": "Livorno",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101102/deportivo-cali/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101102.png",
+        "name": "Deportivo Cali",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/919/sk-brann/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/919.png",
+        "name": "SK Brann",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112705/coquimbo-unido/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112705.png",
+        "name": "Coquimbo Unido",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/897/fc-luzern/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/897.png",
+        "name": "FC Luzern",
+        "league": "RSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110746/pogo%C5%84-szczecin/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110746.png",
+        "name": "Pogoń Szczecin",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112531/depor-iquique/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112531.png",
+        "name": "Depor. Iquique",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110745/jagiellonia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110745.png",
+        "name": "Jagiellonia",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1873/wis%C5%82a-krak%C3%B3w/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1873.png",
+        "name": "Wisła Kraków",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/82/kilmarnock/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/82.png",
+        "name": "Kilmarnock",
+        "league": "Scottish Prem"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1915/fc-groningen/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1915.png",
+        "name": "FC Groningen",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/894/fc-z%C3%BCrich/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/894.png",
+        "name": "FC Zürich",
+        "league": "RSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111766/well-phoenix/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111766.png",
+        "name": "Well. Phoenix",
+        "league": "Hyundai A-League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1813/cham-niortais/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1813.png",
+        "name": "Cham. Niortais",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112224/melbourne-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112224.png",
+        "name": "Melbourne City",
+        "league": "Hyundai A-League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/820/aalborg-bk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/820.png",
+        "name": "Aalborg BK",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111400/sydney-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111400.png",
+        "name": "Sydney FC",
+        "league": "Hyundai A-League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113057/al-fayha/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113057.png",
+        "name": "Al Fayha",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/271/aarhus-agf/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/271.png",
+        "name": "Aarhus AGF",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111397/melb-victory/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111397.png",
+        "name": "Melb. Victory",
+        "league": "Hyundai A-League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/614/ac-ajaccio/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/614.png",
+        "name": "AC Ajaccio",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112410/trapani/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112410.png",
+        "name": "Trapani",
+        "league": "Calcio B"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1938/peterborough/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1938.png",
+        "name": "Peterborough",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114580/delf%C3%ADn-s-c/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114580.png",
+        "name": "Delfín S.C.",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112533/cd-antofagasta/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112533.png",
+        "name": "CD Antofagasta",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112390/al-fateh/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112390.png",
+        "name": "Al Fateh",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112408/al-wehda/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112408.png",
+        "name": "Al Wehda",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/702/ifk-norrk%C3%B6ping/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/702.png",
+        "name": "IFK Norrköping",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/226/fc-sochaux/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/226.png",
+        "name": "FC Sochaux",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112260/fleetwood-town/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112260.png",
+        "name": "Fleetwood Town",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110984/cs-emelec/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110984.png",
+        "name": "CS Emelec",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112389/al-faisaly/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112389.png",
+        "name": "Al Faisaly",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111239/fc-ingolstadt/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111239.png",
+        "name": "FC Ingolstadt",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/272/odense-bk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/272.png",
+        "name": "Odense BK",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110500/braunschweig/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110500.png",
+        "name": "Braunschweig",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/94/ipswich-town/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/94.png",
+        "name": "Ipswich Town",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110974/wilstermann/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110974.png",
+        "name": "Wilstermann",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110913/waasl-beveren/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110913.png",
+        "name": "Waasl. Beveren",
+        "league": "Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100651/vvv-venlo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100651.png",
+        "name": "VVV-Venlo",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1790/portsmouth/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1790.png",
+        "name": "Portsmouth",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101097/audax-italiano/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101097.png",
+        "name": "Audax Italiano",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/10032/fc-lugano/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/10032.png",
+        "name": "FC Lugano",
+        "league": "RSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/212/lb-ch%C3%A2teauroux/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/212.png",
+        "name": "LB Châteauroux",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1739/le-mans-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1739.png",
+        "name": "Le Mans FC",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111327/huachipato-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111327.png",
+        "name": "Huachipato FC",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100757/dinamo-bucarest/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100757.png",
+        "name": "Dinamo Bucarest",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1797/rotherham-utd/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1797.png",
+        "name": "Rotherham Utd",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1926/blackpool/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1926.png",
+        "name": "Blackpool",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112276/us-orl%C3%A9ans/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112276.png",
+        "name": "US Orléans",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114575/river-plate/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114575.png",
+        "name": "River Plate",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/898/fc-st-gallen/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/898.png",
+        "name": "FC St. Gallen",
+        "league": "RSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111723/deportivo-pasto/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111723.png",
+        "name": "Deportivo Pasto",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1951/oxford-utd/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1951.png",
+        "name": "Oxford Utd",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1445/esbjerg-fb/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1445.png",
+        "name": "Esbjerg fB",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111092/%C5%9B-wroc%C5%82aw/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111092.png",
+        "name": "Ś. Wrocław",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112655/curic%C3%B3-unido/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112655.png",
+        "name": "Curicó Unido",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110977/uni%C3%B3n-espa%C3%B1ola/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110977.png",
+        "name": "Unión Española",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1823/as-nancy/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1823.png",
+        "name": "AS Nancy",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/711/bk-h%C3%A4cken/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/711.png",
+        "name": "BK Häcken",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/634/fortuna-sittard/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/634.png",
+        "name": "Fortuna Sittard",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111715/tigre/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111715.png",
+        "name": "Tigre",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110749/zag%C5%82%C4%99bie-lubin/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110749.png",
+        "name": "Zagłębie Lubin",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111774/tianjin-teda/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111774.png",
+        "name": "Tianjin TEDA",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113222/al-hazem/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113222.png",
+        "name": "Al Hazem",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114023/western-united/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114023.png",
+        "name": "Western United",
+        "league": "Hyundai A-League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/319/ifk-g%C3%B6teborg/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/319.png",
+        "name": "IFK Göteborg",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/2017/tsv-hartberg/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/2017.png",
+        "name": "TSV Hartberg",
+        "league": "Ö. Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/420/g%C3%B3rnik-zabrze/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/420.png",
+        "name": "Górnik Zabrze",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/920/v%C3%A5lerenga-fotball/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/920.png",
+        "name": "Vålerenga Fotball",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/2055/sangju-sangmu/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/2055.png",
+        "name": "Sangju Sangmu",
+        "league": "K-League 1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1788/fc-nordsj%C3%A6lland/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1788.png",
+        "name": "FC Nordsjælland",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110588/magdeburg/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110588.png",
+        "name": "Magdeburg",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/15009/scr-altach/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/15009.png",
+        "name": "SCR Altach",
+        "league": "Ö. Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113161/shonan-bellmare/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113161.png",
+        "name": "Shonan Bellmare",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112579/al-petrolera/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112579.png",
+        "name": "Al. Petrolera",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/621/livingston/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/621.png",
+        "name": "Livingston",
+        "league": "Scottish Prem"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/4/bolton/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/4.png",
+        "name": "Bolton",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112671/club-nacional/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112671.png",
+        "name": "Club Nacional",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111588/gyeongnam-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111588.png",
+        "name": "Gyeongnam FC",
+        "league": "K-League 1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111659/rodez-af/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111659.png",
+        "name": "Rodez AF",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114511/sport-huancayo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114511.png",
+        "name": "Sport Huancayo",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1905/rkc-waalwijk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1905.png",
+        "name": "RKC Waalwijk",
+        "league": "Eredivisie"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/29/kaiserslautern/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/29.png",
+        "name": "Kaiserslautern",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/172/unterhaching/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/172.png",
+        "name": "Unterhaching",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111821/admira-wacker/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111821.png",
+        "name": "Admira Wacker",
+        "league": "Ö. Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/300/viking-fk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/300.png",
+        "name": "Viking FK",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/167/kfc-uerdingen/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/167.png",
+        "name": "KFC Uerdingen",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/15040/wsg-tirol/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/15040.png",
+        "name": "WSG Tirol",
+        "league": "Ö. Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113160/sagan-tosu/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113160.png",
+        "name": "Sagan Tosu",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112427/wanderers/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112427.png",
+        "name": "Wanderers",
+        "league": "Hyundai A-League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/142/doncaster-rovers/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/142.png",
+        "name": "Doncaster Rovers",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1569/wis%C5%82a-p%C5%82ock/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1569.png",
+        "name": "Wisła Płock",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114577/always-ready/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114577.png",
+        "name": "Always Ready",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113182/fc-voluntari/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113182.png",
+        "name": "FC Voluntari",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110752/fc-boto%C8%99ani/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110752.png",
+        "name": "FC Botoșani",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112903/jaguares/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112903.png",
+        "name": "Jaguares",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112526/envigado/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112526.png",
+        "name": "Envigado",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1933/wycombe/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1933.png",
+        "name": "Wycombe",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110987/aucas/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110987.png",
+        "name": "Aucas",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/324/servette-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/324.png",
+        "name": "Servette FC",
+        "league": "RSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/127/shrewsbury-town/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/127.png",
+        "name": "Shrewsbury Town",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111082/arka-gdynia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111082.png",
+        "name": "Arka Gdynia",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110532/sv-waldhof/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110532.png",
+        "name": "SV Waldhof",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1715/fc-thun/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1715.png",
+        "name": "FC Thun",
+        "league": "RSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1447/s%C3%B8nderjyske/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1447.png",
+        "name": "SønderjyskE",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110482/hallescher-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110482.png",
+        "name": "Hallescher FC",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110597/sv-meppen/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110597.png",
+        "name": "SV Meppen",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112199/sarpsborg-08-ff/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112199.png",
+        "name": "Sarpsborg 08 FF",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112115/gangwon-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112115.png",
+        "name": "Gangwon FC",
+        "league": "K-League 1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113378/sepsi-osk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113378.png",
+        "name": "Sepsi OSK",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112627/fc-chambly/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112627.png",
+        "name": "FC Chambly",
+        "league": "Domino's Ligue 2"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1800/coventry-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1800.png",
+        "name": "Coventry City",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111334/fbc-melgar/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111334.png",
+        "name": "FBC Melgar",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/149/lincoln-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/149.png",
+        "name": "Lincoln City",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111083/korona-kielce/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111083.png",
+        "name": "Korona Kielce",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114581/u-cat%C3%B3lica/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114581.png",
+        "name": "U. Católica",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100804/st-johnstone/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100804.png",
+        "name": "St. Johnstone",
+        "league": "Scottish Prem"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/27/hansa-rostock/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/27.png",
+        "name": "Hansa Rostock",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111326/liverpool/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111326.png",
+        "name": "Liverpool",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111331/el-nacional/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111331.png",
+        "name": "El Nacional",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110978/cd-cobresal/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110978.png",
+        "name": "CD Cobresal",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110592/fsv-zwickau/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110592.png",
+        "name": "FSV Zwickau",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112527/patriotas/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112527.png",
+        "name": "Patriotas",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112534/uni-concepci%C3%B3n/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112534.png",
+        "name": "Uni. Concepción",
+        "league": "Camp. AFP PlanVital"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1962/bristol-rovers/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1962.png",
+        "name": "Bristol Rovers",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111002/f%C3%A9nix/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111002.png",
+        "name": "Fénix",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112992/at-bucaramanga/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112992.png",
+        "name": "At. Bucaramanga",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112378/dalian-yifang/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112378.png",
+        "name": "Dalian Yifang",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110765/incheon-united/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110765.png",
+        "name": "Incheon United",
+        "league": "K-League 1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112541/wuhan-zall/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112541.png",
+        "name": "Wuhan Zall",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111779/henan-jianye/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111779.png",
+        "name": "Henan Jianye",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113217/damac-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113217.png",
+        "name": "Damac FC",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/435/neuch%C3%A2tel-xamax/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/435.png",
+        "name": "Neuchâtel Xamax",
+        "league": "RSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1955/rochdale/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1955.png",
+        "name": "Rochdale",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/33/1860-munich/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/33.png",
+        "name": "1860 Munich",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1825/duisburg/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1825.png",
+        "name": "Duisburg",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110679/fc-bayern-ii/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110679.png",
+        "name": "FC Bayern II",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1934/swindon-town/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1934.png",
+        "name": "Swindon Town",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/837/dundalk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/837.png",
+        "name": "Dundalk",
+        "league": "SSE Airtricity Lge"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112075/skn-st-p%C3%B6lten/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112075.png",
+        "name": "SKN St. Pölten",
+        "league": "Ö. Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/15048/tranmere-rovers/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/15048.png",
+        "name": "Tranmere Rovers",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/101144/j%C3%BAbilo-iwata/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/101144.png",
+        "name": "Júbilo Iwata",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113158/matsumoto-yamaga/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113158.png",
+        "name": "Matsumoto Yamaga",
+        "league": "Meiji Yasuda J1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/2056/daegu-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/2056.png",
+        "name": "Daegu FC",
+        "league": "K-League 1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111721/c%C3%BAcuta-deportivo/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111721.png",
+        "name": "Cúcuta deportivo",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113926/salford-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113926.png",
+        "name": "Salford City",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111393/adelaide-united/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111393.png",
+        "name": "Adelaide United",
+        "league": "Hyundai A-League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112392/al-raed/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112392.png",
+        "name": "Al Raed",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110815/politehnica-ia%C8%99i/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110815.png",
+        "name": "Politehnica Iași",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112184/river-plate/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112184.png",
+        "name": "River Plate",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1785/sv-mattersburg/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1785.png",
+        "name": "SV Mattersburg",
+        "league": "Ö. Bundesliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112659/cusco-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112659.png",
+        "name": "Cusco FC",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/15015/burton-albion/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/15015.png",
+        "name": "Burton Albion",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1798/mk-dons/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1798.png",
+        "name": "MK Dons",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114147/fc-hermannstadt/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114147.png",
+        "name": "FC Hermannstadt",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112425/hobro-ik/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112425.png",
+        "name": "Hobro IK",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/981/seongnam/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/981.png",
+        "name": "Seongnam",
+        "league": "K-League 1"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114326/rak%C3%B3w-cz%C4%99stochowa/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114326.png",
+        "name": "Raków Częstochowa",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/432/helsingborgs-if/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/432.png",
+        "name": "Helsingborgs IF",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110967/blooming/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110967.png",
+        "name": "Blooming",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110197/w%C3%BCrzburg-kickers/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110197.png",
+        "name": "Würzburg. Kickers",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/918/fk-bod%C3%B8-glimt/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/918.png",
+        "name": "FK Bodø/Glimt",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111398/newcastle-jets/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111398.png",
+        "name": "Newcastle Jets",
+        "league": "Hyundai A-League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112080/sol-de-am%C3%A9rica/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112080.png",
+        "name": "Sol de América",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1786/randers-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1786.png",
+        "name": "Randers FC",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1935/colchester-utd/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1935.png",
+        "name": "Colchester Utd",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110645/viktoria-k%C3%B6ln/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110645.png",
+        "name": "Viktoria Köln",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/700/if-elfsborg/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/700.png",
+        "name": "IF Elfsborg",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113459/kristiansund/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113459.png",
+        "name": "Kristiansund",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/917/stab%C3%A6k-fotball/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/917.png",
+        "name": "Stabæk Fotball",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100325/hjk-helsinki/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100325.png",
+        "name": "HJK Helsinki",
+        "league": "Resto del mundo"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113458/ik-sirius/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113458.png",
+        "name": "IK Sirius",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113058/abha-club/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113058.png",
+        "name": "Abha Club",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114024/plaza-colonia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114024.png",
+        "name": "Plaza Colonia",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/561/forest-green/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/561.png",
+        "name": "Forest Green",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112165/chongqing-swm/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112165.png",
+        "name": "Chongqing SWM",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/507/chemnitzer-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/507.png",
+        "name": "Chemnitzer FC",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113345/al-adalah/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113345.png",
+        "name": "Al Adalah",
+        "league": "MBS Pro League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111379/s-gro%C3%9Faspach/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111379.png",
+        "name": "S. Großaspach",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114598/atl%C3%A9tico-grau/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114598.png",
+        "name": "Atlético Grau",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110989/caracas-f-c/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110989.png",
+        "name": "Caracas F.C.",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110313/accrington/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110313.png",
+        "name": "Accrington",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110992/mineros/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110992.png",
+        "name": "Mineros",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/143/exeter-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/143.png",
+        "name": "Exeter City",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110145/veracruz/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110145.png",
+        "name": "Veracruz",
+        "league": "LIGA BBVA MX"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111395/brisbane-roar/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111395.png",
+        "name": "Brisbane Roar",
+        "league": "Hyundai A-League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110970/o-petrolero/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110970.png",
+        "name": "O. Petrolero",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/100805/st-mirren/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/100805.png",
+        "name": "St. Mirren",
+        "league": "Scottish Prem"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110591/carl-zeiss-jena/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110591.png",
+        "name": "Carl Zeiss Jena",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1940/mansfield-town/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1940.png",
+        "name": "Mansfield Town",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/306/shamrock-rovers/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/306.png",
+        "name": "Shamrock Rovers",
+        "league": "SSE Airtricity Lge"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112259/afc-wimbledon/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112259.png",
+        "name": "AFC Wimbledon",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1596/gif-sundsvall/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1596.png",
+        "name": "GIF Sundsvall",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/15001/lyngby-bk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/15001.png",
+        "name": "Lyngby BK",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1804/bradford-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1804.png",
+        "name": "Bradford City",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1954/southend-utd/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1954.png",
+        "name": "Southend Utd",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1446/ac-horsens/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1446.png",
+        "name": "AC Horsens",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1802/gillingham/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1802.png",
+        "name": "Gillingham",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/705/%C3%B6rebro-sk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/705.png",
+        "name": "Örebro SK",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/631/ross-county/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/631.png",
+        "name": "Ross County",
+        "league": "Scottish Prem"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1949/scunthorpe-utd/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1949.png",
+        "name": "Scunthorpe Utd",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112667/nacional-potos%C3%AD/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112667.png",
+        "name": "Nacional Potosí",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/531/preu%C3%9Fen-m%C3%BCnster/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/531.png",
+        "name": "Preußen Münster",
+        "league": "3. Liga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/922/str%C3%B8msgodset-if/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/922.png",
+        "name": "Strømsgodset IF",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1930/northampton-town/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1930.png",
+        "name": "Northampton Town",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1928/port-vale/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1928.png",
+        "name": "Port Vale",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1803/walsall/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1803.png",
+        "name": "Walsall",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113387/chindia/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113387.png",
+        "name": "Chindia",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113391/academica-clinceni/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113391.png",
+        "name": "Academica Clinceni",
+        "league": "Liga I"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111396/central-coast/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111396.png",
+        "name": "Central Coast",
+        "league": "Hyundai A-League"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111332/est-de-m%C3%A9rida/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111332.png",
+        "name": "Est. de Mérida",
+        "league": "Libertadores"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1456/odds-bk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1456.png",
+        "name": "Odds BK",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1929/plymouth-argyle/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1929.png",
+        "name": "Plymouth Argyle",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112978/hebei-cffc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112978.png",
+        "name": "Hebei CFFC",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112528/atl%C3%A9tico-huila/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112528.png",
+        "name": "Atlético Huila",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/299/lillestr%C3%B8m-sk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/299.png",
+        "name": "Lillestrøm SK",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/92/grimsby-town/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/92.png",
+        "name": "Grimsby Town",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1936/cheltenham-town/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1936.png",
+        "name": "Cheltenham Town",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1480/carlisle-utd/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1480.png",
+        "name": "Carlisle Utd",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1439/kalmar-ff/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1439.png",
+        "name": "Kalmar FF",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112715/uni%C3%B3n-magdalena/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112715.png",
+        "name": "Unión Magdalena",
+        "league": "Liga Dimayor"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112254/newport-county/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112254.png",
+        "name": "Newport County",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/270/silkeborg-if/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/270.png",
+        "name": "Silkeborg IF",
+        "league": "3F Superliga"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/361/stevenage/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/361.png",
+        "name": "Stevenage",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1463/fk-haugesund/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1463.png",
+        "name": "FK Haugesund",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1920/oldham-athletic/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1920.png",
+        "name": "Oldham Athletic",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112200/ranheim-fotball/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112200.png",
+        "name": "Ranheim Fotball",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112916/aragua-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112916.png",
+        "name": "Aragua FC",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/110890/crawley-town/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/110890.png",
+        "name": "Crawley Town",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111085/%C5%82%C3%B3dzki-ks/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111085.png",
+        "name": "Łódzki KS",
+        "league": "PKO Ekstraklasa"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112420/mj%C3%B8ndalen-if/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112420.png",
+        "name": "Mjøndalen IF",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/184/hamilton/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/184.png",
+        "name": "Hamilton",
+        "league": "Scottish Prem"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/418/troms%C3%B8-il/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/418.png",
+        "name": "Tromsø IL",
+        "league": "Eliteserien"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/113173/%C3%B6stersunds-fk/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/113173.png",
+        "name": "Östersunds FK",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/121/crewe-alexandra/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/121.png",
+        "name": "Crewe Alexandra",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111006/luque%C3%B1o/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111006.png",
+        "name": "Luqueño",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/357/morecambe/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/357.png",
+        "name": "Morecambe",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1944/cambridge-utd/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1944.png",
+        "name": "Cambridge Utd",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112912/zamora-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112912.png",
+        "name": "Zamora FC",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1959/macclesfield/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1959.png",
+        "name": "Macclesfield",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1958/leyton-orient/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1958.png",
+        "name": "Leyton Orient",
+        "league": "EFL League Two"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112169/falkenbergs-ff/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112169.png",
+        "name": "Falkenbergs FF",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112983/tianjin-tianhai/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112983.png",
+        "name": "Tianjin Tianhai",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/305/bohemian-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/305.png",
+        "name": "Bohemian FC",
+        "league": "SSE Airtricity Lge"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/114623/llaneros/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/114623.png",
+        "name": "Llaneros",
+        "league": "Sudamericana"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112171/afc-eskilstuna/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112171.png",
+        "name": "AFC Eskilstuna",
+        "league": "Allsvenskan"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/423/st-pats/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/423.png",
+        "name": "St. Pats",
+        "league": "SSE Airtricity Lge"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111773/shenzhen-kaisa/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111773.png",
+        "name": "Shenzhen Kaisa",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/445/derry-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/445.png",
+        "name": "Derry City",
+        "league": "SSE Airtricity Lge"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/1945/bury/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/1945.png",
+        "name": "Bury",
+        "league": "EFL League One"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/112537/beijing-renhe/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/112537.png",
+        "name": "Beijing Renhe",
+        "league": "CSL"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/563/sligo-rovers/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/563.png",
+        "name": "Sligo Rovers",
+        "league": "SSE Airtricity Lge"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/422/cork-city/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/422.png",
+        "name": "Cork City",
+        "league": "SSE Airtricity Lge"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/753/waterford-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/753.png",
+        "name": "Waterford FC",
+        "league": "SSE Airtricity Lge"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111131/finn-harps-fc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111131.png",
+        "name": "Finn Harps FC",
+        "league": "SSE Airtricity Lge"
+    },
+    {
+        "link": "https://www.fifaindex.com/es/team/111132/ucd-afc/",
+        "img": "https://www.fifaindex.com/static/FIFA20/images/crest/5/light/111132.png",
+        "name": "UCD AFC",
+        "league": "SSE Airtricity Lge"
+    }
+]
