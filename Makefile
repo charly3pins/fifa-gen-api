@@ -1,3 +1,8 @@
+.PHONY: run
+## Run service. Usage: 'make run'
+run: ; $(info running code…) @
+	go run ./cmd/server/main.go
+
 .PHONY: up
 ## start DB in Docker. Usage: 'make up'
 up: ; $(info starting db…) @
