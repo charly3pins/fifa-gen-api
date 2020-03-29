@@ -2,6 +2,7 @@
   go-tests = true
   unused-packages = true
 
+
 [[constraint]]
   name = "github.com/golang-migrate/migrate"
   version = "3.5.4"
@@ -9,3 +10,7 @@
 [[constraint]]
   name = "github.com/jinzhu/gorm"
   version = "1.9.1"
+
+[[constraint]]
+  name = "github.com/gorilla/mux"
+  version = "1.7.4"
