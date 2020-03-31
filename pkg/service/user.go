@@ -55,6 +55,7 @@ func (u User) Get(getBy model.User) (model.User, error) {
 		log.Printf("error getting the User %+v:\n%s\n", getBy, err)
 		return usr, err
 	}
+	// TODO check if user exists if not return specific code
 
 	return usr, nil
 }

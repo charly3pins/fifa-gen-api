@@ -23,8 +23,9 @@ func main() {
 	r.HandleFunc("/fifa/teams/{id}", fifaTeamHandler.Get).Methods("GET")
 	r.HandleFunc("/fifa/players", fifaPlayerHandler.Find).Methods("GET")
 	r.HandleFunc("/fifa/players/{id}", fifaPlayerHandler.Get).Methods("GET")
+
 	r.HandleFunc("/users", userHandler.Create).Methods("POST")
-	r.HandleFunc("/users/{id}", userHandler.Get).Methods("GET")
+	r.HandleFunc("/token", userHandler.Login).Methods("POST") // TODO use jwt
 
 	http.ListenAndServe(":8000", r)
 }

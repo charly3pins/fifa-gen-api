@@ -8,6 +8,6 @@ type User struct {
 	Username  string    `json:"username"`
 	Password  string    `json:"password"`
 	Active    bool      `json:"active"`
-	CreatedAt time.Time `gorm:"-"`
-	UpdatedAt time.Time `gorm:"-"`
+	CreatedAt time.Time `json:"-" gorm:"-"`
+	UpdatedAt time.Time `json:"-" gorm:"-"`
 }
