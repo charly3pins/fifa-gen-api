@@ -70,13 +70,15 @@ CREATE TABLE generator.fifa_player(
 CREATE TABLE generator.user(
   id                uuid PRIMARY KEY DEFAULT pgcrypto.gen_random_uuid(),
   name              text NOT NULL,
+  username          text NOT NULL,
+  password          text NOT NULL,
   active            bool NOT NULL DEFAULT FALSE,
   created_at        TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at        TIMESTAMP NOT NULL
 );
 
 ALTER TABLE generator.user
-  ADD CONSTRAINT uniq_user UNIQUE (name)
+  ADD CONSTRAINT uniq_user UNIQUE (username)
 ;
 
 /**
