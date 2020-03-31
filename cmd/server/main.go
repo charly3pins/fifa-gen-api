@@ -14,6 +14,7 @@ func main() {
 	fifaLeagueHandler := handler.NewFifaLeague(service.NewFifaLeague())
 	fifaTeamHandler := handler.NewFifaTeam(service.NewFifaTeam())
 	fifaPlayerHandler := handler.NewFifaPlayer(service.NewFifaPlayer())
+	userHandler := handler.NewUser(service.NewUser())
 
 	// Routes
 	r := mux.NewRouter()
@@ -22,6 +23,8 @@ func main() {
 	r.HandleFunc("/fifa/teams/{id}", fifaTeamHandler.Get).Methods("GET")
 	r.HandleFunc("/fifa/players", fifaPlayerHandler.Find).Methods("GET")
 	r.HandleFunc("/fifa/players/{id}", fifaPlayerHandler.Get).Methods("GET")
+	r.HandleFunc("/users", userHandler.Create).Methods("POST")
+	r.HandleFunc("/users/{id}", userHandler.Get).Methods("GET")
 
 	http.ListenAndServe(":8000", r)
 }
