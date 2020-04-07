@@ -1,0 +1,16 @@
+Starting fifa_gen_dev_db ... 
+[1A[2KStarting fifa_gen_dev_db ... [32mdone[0m[1BAttaching to fifa_gen_dev_db
+[36mfifa_gen_dev_db |[0m 2020-04-07 13:37:01.875 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[36mfifa_gen_dev_db |[0m 2020-04-07 13:37:01.875 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+[36mfifa_gen_dev_db |[0m 2020-04-07 13:37:01.877 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[36mfifa_gen_dev_db |[0m 2020-04-07 13:37:01.890 UTC [18] LOG:  database system was shut down at 2020-04-06 13:27:25 UTC
+[36mfifa_gen_dev_db |[0m 2020-04-07 13:37:01.899 UTC [1] LOG:  database system is ready to accept connections
+Stopping fifa_gen_dev_db ... 
+[1A[2KStopping fifa_gen_dev_db ... [32mdone[0m[1BGracefully stopping... (press Ctrl+C again to force)
+Starting fifa_gen_dev_db ... 
+[1A[2KStarting fifa_gen_dev_db ... [32mdone[0m[1BAttaching to fifa_gen_dev_db
+[36mfifa_gen_dev_db |[0m 2020-04-07 13:37:10.128 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[36mfifa_gen_dev_db |[0m 2020-04-07 13:37:10.128 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+[36mfifa_gen_dev_db |[0m 2020-04-07 13:37:10.131 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[36mfifa_gen_dev_db |[0m 2020-04-07 13:37:10.141 UTC [19] LOG:  database system was shut down at 2020-04-07 13:37:03 UTC
+[36mfifa_gen_dev_db |[0m 2020-04-07 13:37:10.144 UTC [1] LOG:  database system is ready to accept connections

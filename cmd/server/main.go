@@ -15,6 +15,7 @@ func main() {
 	fifaTeamHandler := handler.NewFifaTeam(service.NewFifaTeam())
 	fifaPlayerHandler := handler.NewFifaPlayer(service.NewFifaPlayer())
 	userHandler := handler.NewUser(service.NewUser())
+	groupHandler := handler.NewGroup(service.NewGroup())
 
 	// Routes
 	r := mux.NewRouter()
@@ -26,6 +27,10 @@ func main() {
 
 	r.HandleFunc("/users", userHandler.Create).Methods("POST")
 	r.HandleFunc("/token", userHandler.Login).Methods("POST") // TODO use jwt
+
+	r.HandleFunc("/groups", groupHandler.Find).Methods("GET")
+	r.HandleFunc("/groups/{id}", groupHandler.Get).Methods("GET")
+
 
 	http.ListenAndServe(":8000", r)
 }

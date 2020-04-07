@@ -2,38 +2,69 @@
 
 
 [[projects]]
+  digest = "1:692b29784ba0a25c33a77cb4c2594e2ffc1e72fc66e17e87503e03a29cb227c5"
   name = "github.com/golang-migrate/migrate"
-  packages = [".","database","database/postgres","source","source/file"]
+  packages = [
+    ".",
+    "database",
+    "database/postgres",
+    "source",
+    "source/file",
+  ]
+  pruneopts = "UT"
   revision = "4937cd088f7c7193ee59b319c1c2caa7482aae8e"
   version = "v3.5.4"
 
 [[projects]]
+  digest = "1:25ebe6496abb289ef977c081b2d49f56dd97c32db4ca083d37f95923909ced02"
   name = "github.com/gorilla/mux"
   packages = ["."]
+  pruneopts = "UT"
   revision = "75dcda0896e109a2a22c9315bca3bb21b87b2ba5"
   version = "v1.7.4"
 
 [[projects]]
+  digest = "1:e40b74b04fa9a70ff39869139c9fd15ec9a9eefde3f51ef3b65405a60ce30e0e"
   name = "github.com/jinzhu/gorm"
-  packages = [".","dialects/postgres"]
+  packages = [
+    ".",
+    "dialects/postgres",
+  ]
+  pruneopts = "UT"
   revision = "79a77d771dee4e4b60e9c543e8663bbc80466670"
   version = "v1.9.12"
 
 [[projects]]
+  digest = "1:01ed62f8f4f574d8aff1d88caee113700a2b44c42351943fa73cc1808f736a50"
   name = "github.com/jinzhu/inflection"
   packages = ["."]
+  pruneopts = "UT"
   revision = "f5c5f50e6090ae76a29240b61ae2a90dd810112e"
   version = "v1.0.0"
 
 [[projects]]
+  digest = "1:707178a91d4d0a2382ac044a49cdea18959d6f3453a7ed0f8940ac2e48bfb26f"
   name = "github.com/lib/pq"
-  packages = [".","hstore","oid","scram"]
+  packages = [
+    ".",
+    "hstore",
+    "oid",
+    "scram",
+  ]
+  pruneopts = "UT"
   revision = "99274577be97ac9b1d95a2d61d566dc9b7cc6a54"
   version = "v1.3.0"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "030e69e670a607f834469d8c60b3d07d4236b190fb813db94bce1cc137699c36"
+  input-imports = [
+    "github.com/golang-migrate/migrate",
+    "github.com/golang-migrate/migrate/database/postgres",
+    "github.com/golang-migrate/migrate/source/file",
+    "github.com/gorilla/mux",
+    "github.com/jinzhu/gorm",
+    "github.com/jinzhu/gorm/dialects/postgres",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
