@@ -1,7 +1,7 @@
 package service
 
 import (
-		"fmt"
+	"fmt"
 	"log"
 
 	. "github.com/charly3pins/fifa-gen-api/internal"
