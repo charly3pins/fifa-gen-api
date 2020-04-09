@@ -80,3 +80,13 @@ func (u User) Update(usr model.User) error {
 
 	return nil
 }
+
+func (u User) Find(findBy model.User) ([]model.User, error) {
+	f, err := repo.User().Find(findBy, u.db)
+	if err != nil {
+		log.Printf("error finding the User for Username %s:\n%s\n", findBy.Username, err)
+		return f, err
+	}
+
+	return f, nil
+}

@@ -1,6 +1,6 @@
 package model
 
-import "github.com/jinzhu/gorm"
+import "github.com/jinzhu/gorm" 
 
 type FifaLeague struct {
 	ID   string `json:"id"`

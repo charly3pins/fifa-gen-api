@@ -2,6 +2,7 @@ package http
 
 import (
 	"encoding/json"
+	"log"
 	"net/http"
 
 	"github.com/charly3pins/fifa-gen-api/pkg/model"
@@ -93,6 +94,34 @@ func (u user) Login(w http.ResponseWriter, r *http.Request) {
 	}
 	user.Password = ""
 	b, err := json.Marshal(user)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Write(b)
+}
+
+func (u user) Find(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)
+		return
+	}
+
+	var findBy model.User
+	keys, ok := r.URL.Query()["username"]
+	if !ok || len(keys[0]) < 1 {
+		log.Println("Url Param 'username' is missing")
+		return
+	}
+	findBy.Username = keys[0]
+	var usrs []model.User
+	usrs, err := u.svc.Find(findBy) // TODO check how to do this findBy optional
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	b, err := json.Marshal(usrs)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
