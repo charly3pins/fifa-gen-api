@@ -12,3 +12,7 @@ type User struct {
 	CreatedAt      time.Time `json:"-" gorm:"-"`
 	UpdatedAt      time.Time `json:"-" gorm:"-"`
 }
+
+func (User) TableName() string {
+	return "generator.user"
+}

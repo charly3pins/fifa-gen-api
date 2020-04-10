@@ -10,3 +10,7 @@ type Friend struct {
 	CreatedAt time.Time `json:"-" gorm:"-"`
 	UpdatedAt time.Time `json:"-" gorm:"-"`
 }
+
+func (Friend) TableName() string {
+	return "generator.friend"
+}

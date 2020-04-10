@@ -6,3 +6,7 @@ type FifaTeam struct {
 	ShieldSrc string `json:"shieldSrc" gorm:"default:NULL"`
 	LeagueID  string `json:"leagueId"`
 }
+
+func (FifaTeam) TableName() string {
+	return "generator.fifa_team"
+}

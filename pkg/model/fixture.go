@@ -9,3 +9,7 @@ type Fixture struct {
 	CreatedAt    time.Time `gorm:"-"`
 	UpdatedAt    time.Time `gorm:"-"`
 }
+
+func (Fixture) TableName() string {
+	return "generator.fixture"
+}

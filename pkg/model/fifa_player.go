@@ -8,3 +8,7 @@ type FifaPlayer struct {
 	PictureSrc string `json:"pictureSrc" gorm:"default:NULL"`
 	TeamID     string `json:"teamId"`
 }
+
+func (FifaPlayer) TableName() string {
+	return "generator.fifa_player"
+}

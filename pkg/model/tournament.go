@@ -15,6 +15,10 @@ type Tournament struct {
 	UpdatedAt      time.Time `gorm:"-"`
 }
 
+func (Tournament) TableName() string {
+	return "generator.tournament"
+}
+
 type UserTournament struct {
 	ID           string
 	UserID       string
@@ -22,4 +26,8 @@ type UserTournament struct {
 	TeamID       string
 	CreatedAt    time.Time `gorm:"-"`
 	UpdatedAt    time.Time `gorm:"-"`
+}
+
+func (UserTournament) TableName() string {
+	return "generator.user_tournament"
 }

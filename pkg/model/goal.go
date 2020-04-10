@@ -10,3 +10,7 @@ type Goal struct {
 	Minute    int       `gorm:"default:NULL"`
 	CreatedAt time.Time `gorm:"-"`
 }
+
+func (Goal) TableName() string {
+	return "generator.goal"
+}
