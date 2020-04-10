@@ -2,6 +2,12 @@ package model
 
 import "time"
 
+const (
+	AcceptedState  = "ACCEPTED"
+	RequestedState = "REQUESTED"
+	PendingState   = "PENDING"
+)
+
 type Friend struct {
 	ID        string    `json:"id"`
 	Sender    string    `json:"sender"`

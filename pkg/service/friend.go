@@ -61,6 +61,17 @@ func (f Friend) Get(getBy model.Friend) (model.Friend, error) {
 	return friend, nil
 }
 
+func (f Friend) Find(findBy model.Friend) ([]model.Friend, error) {
+	friend, err := repo.Friend().Find(findBy, f.db)
+	if err != nil {
+		log.Printf("error finding the Friends for ID %+v:\n%s\n", findBy.ID, err)
+		return friend, err
+	}
+	// TODO check if user exists if not return specific code
+
+	return friend, nil
+}
+
 // func (f Friend) Update(usr model.Friend) error {
 // 	getBy := model.Friend{
 // 		Username: usr.Username,

@@ -35,6 +35,16 @@ func (friend) Get(getBy model.Friend, db *gorm.DB) (model.Friend, error) {
 	return f, nil
 }
 
+func (friend) Find(findBy model.Friend, db *gorm.DB) ([]model.Friend, error) {
+	var res []model.Friend
+	if err := db.Where("receiver = ? AND state = ?", findBy.Receiver, model.RequestedState).
+		Find(&res).Error; err != nil {
+		return nil, err
+	}
+
+	return res, nil
+}
+
 func (friend) Update(f model.Friend, db *gorm.DB) error {
 	if err := db.Save(&f).Error; err != nil {
 		return err

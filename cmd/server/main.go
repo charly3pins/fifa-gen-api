@@ -30,7 +30,10 @@ func main() {
 	r.HandleFunc("/users", userHandler.Find).Methods("GET")
 
 	r.HandleFunc("/friends", friendHandler.Create).Methods("POST")
-	r.HandleFunc("/friends/{id}", friendHandler.Get).Methods("GET")
+	r.HandleFunc("/friends", friendHandler.Get).Methods("GET")
+
+	// TODO check how to improve this method
+	r.HandleFunc("/notifications", friendHandler.Find).Methods("GET")
 
 	http.ListenAndServe(":8000", r)
 }
