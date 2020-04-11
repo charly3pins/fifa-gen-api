@@ -15,7 +15,7 @@ func main() {
 	fifaTeamHandler := handler.NewFifaTeam(service.NewFifaTeam())
 	fifaPlayerHandler := handler.NewFifaPlayer(service.NewFifaPlayer())
 	userHandler := handler.NewUser(service.NewUser())
-	friendHandler := handler.NewFriend(service.NewFriend())
+	friendshipHandler := handler.NewFriendship(service.NewFriendship())
 	notificationHandler := handler.NewNotification(service.NewNotification())
 
 	// Routes
@@ -30,8 +30,8 @@ func main() {
 	r.HandleFunc("/users", userHandler.Create).Methods("POST")
 	r.HandleFunc("/users", userHandler.Find).Methods("GET")
 
-	r.HandleFunc("/friends", friendHandler.Create).Methods("POST")
-	r.HandleFunc("/friends", friendHandler.Get).Methods("GET")
+	r.HandleFunc("/friendship", friendshipHandler.Create).Methods("POST")
+	r.HandleFunc("/friendship", friendshipHandler.Get).Methods("GET")
 
 	// TODO check how to improve this method
 	r.HandleFunc("/notifications", notificationHandler.Find).Methods("GET")

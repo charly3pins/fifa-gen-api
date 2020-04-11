@@ -27,17 +27,24 @@ type Notification struct {
 
 func (n Notification) Find(userID string) (model.Notification, error) {
 	var notifications model.Notification
-	friends, err := repo.Friend().Find(userID, n.db)
+	pendingReqs, err := repo.Friendship().PendingRequests(userID, n.db)
 	if err != nil {
 		log.Printf("error finding the Friends for ID %s:\n%s\n", userID, err)
 		return notifications, err
 	}
 
-	friendRequests := make([]model.User, len(friends))
-	for k, f := range friends {
-		usr, err := repo.User().Get(model.User{ID: f.Sender}, n.db)
+	friendRequests := make([]model.User, len(pendingReqs))
+	for k, pr := range pendingReqs {
+		var getBy model.User
+		// Search the users of the friend requests that are not the user
+		if pr.UserOneID == userID {
+			getBy.ID = pr.UserTwoID
+		} else {
+			getBy.ID = pr.UserOneID
+		}
+		usr, err := repo.User().Get(getBy, n.db)
 		if err != nil {
-			log.Printf("error getting User for ID %s:\n%s\n", f.Sender, err)
+			log.Printf("error getting User for ID %s:\n%s\n", getBy.ID, err)
 			return notifications, err
 		}
 		friendRequests[k] = usr

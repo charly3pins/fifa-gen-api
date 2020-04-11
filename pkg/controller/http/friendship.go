@@ -9,21 +9,21 @@ import (
 	"github.com/charly3pins/fifa-gen-api/pkg/service"
 )
 
-func NewFriend(svc service.Friend) friend {
-	return friend{svc: svc}
+func NewFriendship(svc service.Friendship) friendship {
+	return friendship{svc: svc}
 }
 
-type friend struct {
-	svc service.Friend
+type friendship struct {
+	svc service.Friendship
 }
 
-func (f friend) Create(w http.ResponseWriter, r *http.Request) {
+func (f friendship) Create(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPost {
 		http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)
 		return
 	}
 
-	var friend model.Friend
+	var friend model.Friendship
 	err := json.NewDecoder(r.Body).Decode(&friend)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -45,34 +45,39 @@ func (f friend) Create(w http.ResponseWriter, r *http.Request) {
 	w.Write(b)
 }
 
-func (f friend) Get(w http.ResponseWriter, r *http.Request) {
+func (f friendship) Get(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet {
 		http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)
 		return
 	}
 
 	// TODO check how to improve the query param extraction
-	var getBy model.Friend
-	keys, ok := r.URL.Query()["sender"]
+	var getBy model.Friendship
+	keys, ok := r.URL.Query()["userOne"]
 	if !ok || len(keys[0]) < 1 {
-		log.Println("Url Param 'sender' is missing")
+		log.Println("Url Param 'userOne' is missing")
 		return
 	}
-	getBy.Sender = keys[0]
+	getBy.UserOneID = keys[0]
 
-	keys, ok = r.URL.Query()["receiver"]
+	keys, ok = r.URL.Query()["userTwo"]
 	if !ok || len(keys[0]) < 1 {
-		log.Println("Url Param 'receiver' is missing")
+		log.Println("Url Param 'userTwo' is missing")
 		return
 	}
-	getBy.Receiver = keys[0]
-
-	friend, err := f.svc.Get(getBy)
+	getBy.UserTwoID = keys[0]
+	log.Println("getBy", getBy)
+	friendship, err := f.svc.Get(getBy)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	b, err := json.Marshal(friend)
+	log.Println("friendship", friendship)
+	if friendship.UserOneID == "" {
+		w.Write([]byte{})
+		return
+	}
+	b, err := json.Marshal(friendship)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
