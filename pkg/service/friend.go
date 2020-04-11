@@ -60,35 +60,3 @@ func (f Friend) Get(getBy model.Friend) (model.Friend, error) {
 
 	return friend, nil
 }
-
-func (f Friend) Find(findBy model.Friend) ([]model.Friend, error) {
-	friend, err := repo.Friend().Find(findBy, f.db)
-	if err != nil {
-		log.Printf("error finding the Friends for ID %+v:\n%s\n", findBy.ID, err)
-		return friend, err
-	}
-	// TODO check if user exists if not return specific code
-
-	return friend, nil
-}
-
-// func (f Friend) Update(usr model.Friend) error {
-// 	getBy := model.Friend{
-// 		Username: usr.Username,
-// 	}
-// 	usrDB, err := repo.Friend().Get(getBy, f.db)
-// 	if err != nil {
-// 		log.Printf("error getting the User for Username %s:\n%s\n", usr.Username, err)
-// 		return err
-// 	}
-// 	if usrDB.ID == "" {
-// 		return fmt.Errorf("User for Username %s not found", usr.Username)
-// 	}
-
-// 	if err := repo.Friend().Update(usr, f.db); err != nil {
-// 		log.Printf("error updating the User %+v:\n%s\n", usr, err)
-// 		return err
-// 	}
-
-// 	return nil
-// }

@@ -16,6 +16,7 @@ func main() {
 	fifaPlayerHandler := handler.NewFifaPlayer(service.NewFifaPlayer())
 	userHandler := handler.NewUser(service.NewUser())
 	friendHandler := handler.NewFriend(service.NewFriend())
+	notificationHandler := handler.NewNotification(service.NewNotification())
 
 	// Routes
 	r := mux.NewRouter()
@@ -33,7 +34,7 @@ func main() {
 	r.HandleFunc("/friends", friendHandler.Get).Methods("GET")
 
 	// TODO check how to improve this method
-	r.HandleFunc("/notifications", friendHandler.Find).Methods("GET")
+	r.HandleFunc("/notifications", notificationHandler.Find).Methods("GET")
 
 	http.ListenAndServe(":8000", r)
 }

@@ -80,31 +80,3 @@ func (f friend) Get(w http.ResponseWriter, r *http.Request) {
 
 	w.Write(b)
 }
-
-func (f friend) Find(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodGet {
-		http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)
-		return
-	}
-
-	var findBy model.Friend
-	keys, ok := r.URL.Query()["id"]
-	if !ok || len(keys[0]) < 1 {
-		log.Println("Url Param 'id' is missing")
-		return
-	}
-	findBy.Receiver = keys[0]
-
-	friends, err := f.svc.Find(findBy)
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
-	b, err := json.Marshal(len(friends))
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
-
-	w.Write(b)
-}
