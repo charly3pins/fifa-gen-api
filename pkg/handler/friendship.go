@@ -1,4 +1,4 @@
-package http
+package handler
 
 import (
 	"encoding/json"
@@ -23,20 +23,19 @@ func (f friendship) Create(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	var friend model.Friendship
-	err := json.NewDecoder(r.Body).Decode(&friend)
-	if err != nil {
+	var friendship model.Friendship
+	if err := json.NewDecoder(r.Body).Decode(&friendship); err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 
-	friend, err = f.svc.Create(friend)
+	friendship, err := f.svc.Create(friendship)
 	if err != nil {
 		// TODO check err code and return according message
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	b, err := json.Marshal(friend)
+	b, err := json.Marshal(friendship)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
@@ -66,13 +65,12 @@ func (f friendship) Get(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	getBy.UserTwoID = keys[0]
-	log.Println("getBy", getBy)
+
 	friendship, err := f.svc.Get(getBy)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	log.Println("friendship", friendship)
 	if friendship.UserOneID == "" {
 		w.Write([]byte{})
 		return
@@ -84,4 +82,25 @@ func (f friendship) Get(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.Write(b)
+}
+
+func (f friendship) Update(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodPut {
+		http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)
+		return
+	}
+
+	var friendship model.Friendship
+	if err := json.NewDecoder(r.Body).Decode(&friendship); err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	if err := f.svc.Update(friendship); err != nil {
+		// TODO check err code and return according message
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Write([]byte{})
 }

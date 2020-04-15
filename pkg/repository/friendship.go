@@ -57,7 +57,9 @@ func (friendship) PendingRequests(userID string, db *gorm.DB) ([]model.Friendshi
 }
 
 func (friendship) Update(f model.Friendship, db *gorm.DB) error {
-	if err := db.Save(&f).Error; err != nil {
+	if err := db.Model(&f).
+		Where("user_one_id = ? AND user_two_id = ?", f.UserOneID, f.UserTwoID).
+		UpdateColumns(model.Friendship{Status: f.Status, ActionUserID: f.ActionUserID}).Error; err != nil {
 		return err
 	}
 

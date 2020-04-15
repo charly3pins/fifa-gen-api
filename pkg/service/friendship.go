@@ -14,7 +14,6 @@ import (
 func NewFriendship() Friendship {
 	// Database
 	db, err := NewDB()
-	db.LogMode(true)
 	if err != nil {
 		log.Fatal("error creating new DB", err)
 	}
@@ -28,6 +27,8 @@ type Friendship struct {
 }
 
 func (f Friendship) Create(friendship model.Friendship) (model.Friendship, error) {
+	// UserOneID will be the user that sends the request
+	// UserTwoID will be the user that receives the request
 	getBy := model.Friendship{
 		UserOneID: friendship.UserOneID,
 		UserTwoID: friendship.UserTwoID,
@@ -72,13 +73,17 @@ func (f Friendship) Update(friendship model.Friendship) error {
 		log.Printf("error getting the Friendship for UserOneID %s and UserTwoID %s:\n%s\n", friendship.UserOneID, friendship.UserTwoID, err)
 		return err
 	}
-	if friendshipDB.UserOneID != "" || friendshipDB.UserTwoID != "" {
+	if friendshipDB.UserOneID == "" || friendshipDB.UserTwoID == "" {
 		// TODO return specific code
-		return fmt.Errorf("error duplicate Friend for UserOneID %s and UserTwoID %s", friendship.UserOneID, friendship.UserTwoID)
+		return fmt.Errorf("error Friendship for UserOneID %s and UserTwoID %s not found", friendship.UserOneID, friendship.UserTwoID)
 	}
 
-	if err := repo.Friendship().Update(friendship, f.db); err != nil {
-		log.Printf("error updating the Friendship %+v:\n%s\n", friendship, err)
+	// Update status with the one received
+	friendshipDB.Status = friendship.Status
+	// UserTwoID received will be the user that answers the request (the receiver)
+	friendshipDB.ActionUserID = friendship.UserTwoID
+	if err := repo.Friendship().Update(friendshipDB, f.db); err != nil {
+		log.Printf("error updating the Friendship %+v:\n%s\n", friendshipDB, err)
 		return err
 	}
 

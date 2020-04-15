@@ -70,6 +70,7 @@ func (u User) Update(usr model.User) error {
 		return err
 	}
 	if usrDB.ID == "" {
+		// TODO return specific code
 		return fmt.Errorf("User for Username %s not found", usr.Username)
 	}
 
