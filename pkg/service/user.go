@@ -15,7 +15,7 @@ func NewUser() User {
 	// Database
 	db, err := NewDB()
 	if err != nil {
-		log.Fatal("Error creating new DB", err)
+		log.Fatal("error creating new DB", err)
 	}
 	return User{
 		db: db,

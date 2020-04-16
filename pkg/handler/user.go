@@ -44,6 +44,33 @@ func (u user) Create(w http.ResponseWriter, r *http.Request) {
 
 	w.Write(b)
 }
+func (u user) Find(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)
+		return
+	}
+
+	var findBy model.User
+	keys, ok := r.URL.Query()["username"]
+	if !ok || len(keys[0]) < 1 {
+		log.Println("Url Param 'username' is missing")
+		return
+	}
+	findBy.Username = keys[0]
+	var usrs []model.User
+	usrs, err := u.svc.Find(findBy) // TODO check how to do this findBy optional
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	b, err := json.Marshal(usrs)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Write(b)
+}
 
 func (u user) Get(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet {
@@ -102,30 +129,24 @@ func (u user) Login(w http.ResponseWriter, r *http.Request) {
 	w.Write(b)
 }
 
-func (u user) Find(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodGet {
+func (u user) Update(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodPut {
 		http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)
 		return
 	}
 
-	var findBy model.User
-	keys, ok := r.URL.Query()["username"]
-	if !ok || len(keys[0]) < 1 {
-		log.Println("Url Param 'username' is missing")
-		return
-	}
-	findBy.Username = keys[0]
-	var usrs []model.User
-	usrs, err := u.svc.Find(findBy) // TODO check how to do this findBy optional
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
-	}
-	b, err := json.Marshal(usrs)
+	var user model.User
+	err := json.NewDecoder(r.Body).Decode(&user)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 
-	w.Write(b)
+	if err = u.svc.Update(user); err != nil {
+		// TODO check err code and return according message
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Write([]byte{})
 }

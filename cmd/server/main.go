@@ -31,6 +31,7 @@ func main() {
 	r.HandleFunc("/token", userHandler.Login).Methods("POST") // TODO use jwt
 	r.HandleFunc("/users", userHandler.Create).Methods("POST")
 	r.HandleFunc("/users", userHandler.Find).Methods("GET")
+	r.HandleFunc("/users/{id}", userHandler.Update).Methods("PUT")
 
 	// Friendship
 	r.HandleFunc("/friendship", friendshipHandler.Create).Methods("POST")

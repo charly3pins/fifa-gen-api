@@ -38,7 +38,9 @@ func (user) Get(getBy model.User, db *gorm.DB) (model.User, error) {
 }
 
 func (user) Update(u model.User, db *gorm.DB) error {
-	if err := db.Save(&u).Error; err != nil {
+	if err := db.Model(&u).
+		Where("id = ?", u.ID).
+		UpdateColumns(model.User{Name: u.Name}).Error; err != nil {
 		return err
 	}
 
