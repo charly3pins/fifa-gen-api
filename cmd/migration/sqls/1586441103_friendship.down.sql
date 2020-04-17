@@ -1,5 +1,5 @@
 BEGIN;
 
-DELETE FROM generator.friendship;
+DROP TABLE generator.friendship;
 
 COMMIT;

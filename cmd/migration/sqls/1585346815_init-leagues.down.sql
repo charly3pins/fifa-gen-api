@@ -1,5 +1,5 @@
 BEGIN;
 
-DELETE FROM generator.fifa_league;
+DROP TABLE generator.fifa_league;
 
 COMMIT;
