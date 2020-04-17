@@ -14,9 +14,7 @@ func main() {
 	fifaLeagueHandler := handler.NewFifaLeague(service.NewFifaLeague())
 	fifaTeamHandler := handler.NewFifaTeam(service.NewFifaTeam())
 	fifaPlayerHandler := handler.NewFifaPlayer(service.NewFifaPlayer())
-	userHandler := handler.NewUser(service.NewUser())
-	friendshipHandler := handler.NewFriendship(service.NewFriendship())
-	notificationHandler := handler.NewNotification(service.NewNotification())
+	userHandler := handler.NewUser(service.NewUser(), service.NewFriendship())
 
 	// Routes
 	// FIFA information
@@ -28,19 +26,20 @@ func main() {
 	r.HandleFunc("/fifa/players/{id}", fifaPlayerHandler.Get).Methods("GET")
 
 	// Users
-	r.HandleFunc("/token", userHandler.Login).Methods("POST") // TODO use jwt
+	// Login user (log in)
+	r.HandleFunc("/token", userHandler.Login).Methods("POST") // TODO use JWT
+	// Create user (sign up)
 	r.HandleFunc("/users", userHandler.Create).Methods("POST")
+	// Retrieve users (used in a search tool)
 	r.HandleFunc("/users", userHandler.Find).Methods("GET")
+	// Update user basic information (edit profile)
 	r.HandleFunc("/users/{id}", userHandler.Update).Methods("PUT")
 
-	// Friendship
-	r.HandleFunc("/friendship", friendshipHandler.Create).Methods("POST")
-	r.HandleFunc("/friendship", friendshipHandler.Get).Methods("GET")
-	r.HandleFunc("/friendship", friendshipHandler.Update).Methods("PUT")
-
-	// Notifications
-	// TODO check how to improve this method
-	r.HandleFunc("/notifications", notificationHandler.Find).Methods("GET")
+	// Friendships
+	// Create a friend request for a user {id}
+	r.HandleFunc("/users/{id}/friendships", userHandler.CreateFriendship).Methods("POST")
+	// Find friendships for a user {id} [Query param filter={requested, pending, friends}]
+	r.HandleFunc("/users/{id}/friendships", userHandler.FindFriendships).Methods("GET")
 
 	http.ListenAndServe(":8000", r)
 }
