@@ -125,6 +125,7 @@ func (u user) FindFriendships(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
+
 	b, err := json.Marshal(users)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -173,13 +174,33 @@ func (u user) Update(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var user model.User
-	err := json.NewDecoder(r.Body).Decode(&user)
-	if err != nil {
+	if err := json.NewDecoder(r.Body).Decode(&user); err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 
-	if err = u.userSvc.Update(user); err != nil {
+	if err := u.userSvc.Update(user); err != nil {
+		// TODO check err code and return according message
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Write([]byte{})
+}
+
+func (u user) UpdateFriendship(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodPut {
+		http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)
+		return
+	}
+
+	var friendship model.Friendship
+	if err := json.NewDecoder(r.Body).Decode(&friendship); err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	if err := u.friendshipSvc.Update(friendship); err != nil {
 		// TODO check err code and return according message
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return

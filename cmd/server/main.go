@@ -40,6 +40,8 @@ func main() {
 	r.HandleFunc("/users/{id}/friendships", userHandler.CreateFriendship).Methods("POST")
 	// Find friendships for a user {id} [Query param filter={requested, pending, friends}]
 	r.HandleFunc("/users/{id}/friendships", userHandler.FindFriendships).Methods("GET")
+	// Answer a friendship request
+	r.HandleFunc("/users/{id}/friendships", userHandler.UpdateFriendship).Methods("PUT")
 
 	http.ListenAndServe(":8000", r)
 }
