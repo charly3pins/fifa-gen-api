@@ -42,6 +42,8 @@ func main() {
 	r.HandleFunc("/users/{id}/friendships", userHandler.FindFriendships).Methods("GET")
 	// Answer a friendship request
 	r.HandleFunc("/users/{id}/friendships", userHandler.UpdateFriendship).Methods("PUT")
+	// Get friendship between two users
+	r.HandleFunc("/users/{id}/friendships/{otherUserID}", userHandler.GetFriendship).Methods("GET")
 
 	http.ListenAndServe(":8000", r)
 }

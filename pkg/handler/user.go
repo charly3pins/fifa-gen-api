@@ -135,6 +135,35 @@ func (u user) FindFriendships(w http.ResponseWriter, r *http.Request) {
 	w.Write(b)
 }
 
+func (u user) GetFriendships(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)
+		return
+	}
+
+	params := mux.Vars(r)
+	userID := params["id"]
+	otherUserID := params["otherUserID"]
+
+	getBy := model.Friendship{
+		UserOneID: userID,
+		UserTwoID: otherUserID,
+	}
+	friendship, err := u.friendshipSvc.Get(getBy)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	b, err := json.Marshal(friendship)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Write(b)
+}
+
 func (u user) Login(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPost {
 		http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)

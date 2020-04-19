@@ -74,6 +74,29 @@ func (f Friendship) Find(userID, filter string) ([]model.User, error) {
 
 func (f Friendship) Get(getBy model.Friendship) (model.Friendship, error) {
 	var friendship model.Friendship
+
+	// first check if the user one exists
+	usrOne, err := repo.User().Get(model.User{ID: getBy.UserOneID}, f.db)
+	if err != nil || usrOne.ID == "" {
+		log.Printf("error getting the User with UserID %s:\n%s\n", getBy.UserOneID, err)
+		return friendship, err
+	}
+
+	// then check if the user two exists
+	usrTwo, err := repo.User().Get(model.User{ID: getBy.UserTwoID}, f.db)
+	if err != nil || usrTwo.ID == "" {
+		log.Printf("error getting the User with UserID %s:\n%s\n", getBy.UserTwoID, err)
+		return friendship, err
+	}
+
+	// search the friendship between the users
+	friendship, err = repo.Friendship().Get(getBy, f.db)
+	if err != nil {
+		log.Printf("error getting the Friendship by %+v:\n%s\n", getBy, err)
+		return friendship, err
+	}
+	// TODO check if friendship is empty and return specific code
+
 	return friendship, nil
 }
 
