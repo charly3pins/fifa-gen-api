@@ -42,7 +42,6 @@ func (friendship) Find(userID, filter string, db *gorm.DB) ([]model.User, error)
 		where = "WHERE (ordered_fs.user_one_id = ? OR ordered_fs.user_two_id = ?) AND ordered_fs.status = " + strconv.Itoa(model.StatusCodeAccepted) + " GROUP BY (u.id)"
 		break
 	default:
-		// TODO check if we need this
 		return users, fmt.Errorf("filter %s not implemented", filter)
 	}
 
