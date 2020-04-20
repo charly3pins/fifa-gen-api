@@ -135,7 +135,7 @@ func (u user) FindFriendships(w http.ResponseWriter, r *http.Request) {
 	w.Write(b)
 }
 
-func (u user) GetFriendships(w http.ResponseWriter, r *http.Request) {
+func (u user) GetFriendship(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet {
 		http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)
 		return
