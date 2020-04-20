@@ -72,6 +72,7 @@ CREATE TABLE generator.user(
   name              text NOT NULL,
   username          text NOT NULL,
   password          text NOT NULL,
+  profile_picture   text DEFAULT NULL,
   active            bool NOT NULL DEFAULT FALSE,
   created_at        TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at        TIMESTAMP NOT NULL

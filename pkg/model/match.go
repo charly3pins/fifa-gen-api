@@ -11,3 +11,7 @@ type Match struct {
 	CreatedAt time.Time `gorm:"-"`
 	UpdatedAt time.Time `gorm:"-"`
 }
+
+func (Match) TableName() string {
+	return "generator.match"
+}

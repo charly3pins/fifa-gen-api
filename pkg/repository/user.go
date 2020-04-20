@@ -1,6 +1,8 @@
 package repository
 
 import (
+	"strings"
+
 	"github.com/charly3pins/fifa-gen-api/pkg/model"
 
 	"github.com/jinzhu/gorm"
@@ -36,9 +38,21 @@ func (user) Get(getBy model.User, db *gorm.DB) (model.User, error) {
 }
 
 func (user) Update(u model.User, db *gorm.DB) error {
-	if err := db.Save(&u).Error; err != nil {
+	if err := db.Model(&u).
+		UpdateColumns(model.User{Name: u.Name}).Error; err != nil {
 		return err
 	}
 
 	return nil
+}
+
+func (user) Find(findBy model.User, db *gorm.DB) ([]model.User, error) {
+	var res []model.User
+	// TODO improve the sanytize for the %username%
+	if err := db.Where("UPPER(username) LIKE ?", "%"+strings.ToUpper(findBy.Username)+"%").
+		Find(&res).Error; err != nil {
+		return nil, err
+	}
+
+	return res, nil
 }

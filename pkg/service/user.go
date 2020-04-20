@@ -15,7 +15,7 @@ func NewUser() User {
 	// Database
 	db, err := NewDB()
 	if err != nil {
-		log.Fatal("Error creating new DB", err)
+		log.Fatal("error creating new DB", err)
 	}
 	return User{
 		db: db,
@@ -70,6 +70,7 @@ func (u User) Update(usr model.User) error {
 		return err
 	}
 	if usrDB.ID == "" {
+		// TODO return specific code
 		return fmt.Errorf("User for Username %s not found", usr.Username)
 	}
 
@@ -79,4 +80,14 @@ func (u User) Update(usr model.User) error {
 	}
 
 	return nil
+}
+
+func (u User) Find(findBy model.User) ([]model.User, error) {
+	f, err := repo.User().Find(findBy, u.db)
+	if err != nil {
+		log.Printf("error finding the User for Username %s:\n%s\n", findBy.Username, err)
+		return f, err
+	}
+
+	return f, nil
 }
