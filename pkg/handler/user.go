@@ -5,10 +5,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gorilla/mux"
-
 	"github.com/charly3pins/fifa-gen-api/pkg/model"
 	"github.com/charly3pins/fifa-gen-api/pkg/service"
+
+	"github.com/gorilla/mux"
 )
 
 func NewUser(us service.User, fs service.Friendship) user {
@@ -30,13 +30,12 @@ func (u user) Create(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var user model.User
-	err := json.NewDecoder(r.Body).Decode(&user)
-	if err != nil {
+	if err := json.NewDecoder(r.Body).Decode(&user); err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 
-	user, err = u.userSvc.Create(user)
+	user, err := u.userSvc.Create(user)
 	if err != nil {
 		// TODO check err code and return according message
 		http.Error(w, err.Error(), http.StatusInternalServerError)

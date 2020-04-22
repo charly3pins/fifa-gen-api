@@ -12,7 +12,6 @@ import (
 )
 
 func NewFriendship() Friendship {
-	// Database
 	db, err := NewDB()
 	if err != nil {
 		log.Fatal("error creating new DB", err)

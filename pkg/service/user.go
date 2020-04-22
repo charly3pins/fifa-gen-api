@@ -12,7 +12,6 @@ import (
 )
 
 func NewUser() User {
-	// Database
 	db, err := NewDB()
 	if err != nil {
 		log.Fatal("error creating new DB", err)
@@ -42,7 +41,7 @@ func (u User) Create(usr model.User) (model.User, error) {
 
 	usrDB, err = repo.User().Create(usr, u.db)
 	if err != nil {
-		log.Printf("error creating the User %+v::\n%s\n", usr, err)
+		log.Printf("error creating the User %+v:\n%s\n", usr, err)
 		return usr, err
 	}
 
@@ -62,16 +61,17 @@ func (u User) Get(getBy model.User) (model.User, error) {
 
 func (u User) Update(usr model.User) error {
 	getBy := model.User{
+		ID:       usr.ID,
 		Username: usr.Username,
 	}
 	usrDB, err := repo.User().Get(getBy, u.db)
 	if err != nil {
-		log.Printf("error getting the User for Username %s:\n%s\n", usr.Username, err)
+		log.Printf("error getting the User for %+v:\n%s\n", getBy, err)
 		return err
 	}
 	if usrDB.ID == "" {
 		// TODO return specific code
-		return fmt.Errorf("User for Username %s not found", usr.Username)
+		return fmt.Errorf("User for %+v not found", getBy)
 	}
 
 	if err := repo.User().Update(usr, u.db); err != nil {
