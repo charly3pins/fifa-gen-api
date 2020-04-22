@@ -100,9 +100,9 @@ CREATE TABLE generator.group(
  * Set of Users in a Group
  */
 CREATE TABLE generator.user_group(
-  id                uuid PRIMARY KEY DEFAULT pgcrypto.gen_random_uuid(),
   user_id           uuid NOT NULL REFERENCES generator.user(id),
   group_id          uuid NOT NULL REFERENCES generator.group(id),
+  is_admin          bool NOT NULL DEFAULT FALSE,
   created_at        TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at        TIMESTAMP NOT NULL
 );
@@ -192,6 +192,12 @@ CREATE TRIGGER user_updated_at
 
 CREATE TRIGGER group_updated_at
   BEFORE INSERT OR UPDATE ON generator.group
+  FOR EACH ROW
+  EXECUTE PROCEDURE generator.set_updated_at()
+;
+
+CREATE TRIGGER user_group_updated_at
+  BEFORE INSERT OR UPDATE ON generator.user_group
   FOR EACH ROW
   EXECUTE PROCEDURE generator.set_updated_at()
 ;
