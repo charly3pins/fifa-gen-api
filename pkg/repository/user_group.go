@@ -42,7 +42,7 @@ func (userGroup) Get(getBy model.UserGroup, db *gorm.DB) (model.UserGroup, error
 	return ug, nil
 }
 
-func (userGroup) Find(groupID string, db *gorm.DB) ([]model.Member, error) {
+func (userGroup) FindMembers(groupID string, db *gorm.DB) ([]model.Member, error) {
 	var res []model.Member
 
 	if err := db.Raw("SELECT u.id, u.name, u.username, u.active, u.profile_picture, ug.is_admin FROM "+model.User{}.TableName()+" u "+

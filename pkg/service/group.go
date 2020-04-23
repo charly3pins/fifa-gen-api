@@ -65,9 +65,40 @@ func (g Group) Create(group model.GroupComplete) (model.Group, error) {
 	return groupDB, nil
 }
 
-func (g Group) Find(findBy model.Group) ([]model.GroupComplete, error) {
+func (g Group) Find(userID string) ([]model.GroupComplete, error) {
 	// TODO find user_group where user_id = id provided and join with groups and return them
-	return nil, nil
+	var groupsComplete []model.GroupComplete
+
+	// first check if the user exists
+	usrOne, err := repo.User().Get(model.User{ID: userID}, g.db)
+	if err != nil || usrOne.ID == "" {
+		log.Printf("error getting the User with UserID %s:\n%s\n", userID, err)
+		return groupsComplete, err
+	}
+
+	// find groups where userID is present
+	groups, err := repo.Group().Find(userID, g.db)
+	if err != nil {
+		log.Printf("error finding the UserGroup groups for userID %s:\n%s\n", userID, err)
+		return groupsComplete, err
+	}
+
+	// for all groups, find the members
+	for _, group := range groups {
+		groupComplete := model.GroupComplete{
+			Group: group,
+		}
+		members, err := repo.UserGroup().FindMembers(group.ID, g.db)
+		if err != nil {
+			log.Printf("error finding the UserGroup members for groupID %s:\n%s\n", group.ID, err)
+			return groupsComplete, err
+		}
+		groupComplete.Members = members
+
+		groupsComplete = append(groupsComplete, groupComplete)
+	}
+
+	return groupsComplete, nil
 }
 
 func (g Group) Get(getBy model.Group) (model.GroupComplete, error) {
@@ -82,7 +113,7 @@ func (g Group) Get(getBy model.Group) (model.GroupComplete, error) {
 	groupComplete.Group = group
 
 	// find members for that groupID
-	members, err := repo.UserGroup().Find(group.ID, g.db)
+	members, err := repo.UserGroup().FindMembers(group.ID, g.db)
 	if err != nil {
 		log.Printf("error finding the UserGroup members for groupID %s:\n%s\n", group.ID, err)
 		return groupComplete, err
@@ -115,7 +146,7 @@ func (g Group) Update(group model.GroupComplete) error {
 	}
 
 	// find stored members for that groupID
-	members, err := repo.UserGroup().Find(group.Group.ID, g.db)
+	members, err := repo.UserGroup().FindMembers(group.Group.ID, g.db)
 	if err != nil {
 		log.Printf("error finding the old members for groupID %s:\n%s\n", group.Group.ID, err)
 		return err

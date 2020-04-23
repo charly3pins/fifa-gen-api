@@ -2,6 +2,7 @@ package handler
 
 import (
 	"encoding/json"
+	"log"
 	"net/http"
 
 	"github.com/charly3pins/fifa-gen-api/pkg/model"
@@ -50,31 +51,36 @@ func (g group) Create(w http.ResponseWriter, r *http.Request) {
 }
 
 func (g group) Find(w http.ResponseWriter, r *http.Request) {
-	// if r.Method != http.MethodGet {
-	// 	http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)
-	// 	return
-	// }
+	if r.Method != http.MethodGet {
+		http.Error(w, http.StatusText(405), http.StatusMethodNotAllowed)
+		return
+	}
 
-	// var findBy model.User
-	// keys, ok := r.URL.Query()["username"]
-	// if !ok || len(keys[0]) < 1 {
-	// 	log.Println("Url Param 'username' is missing")
-	// 	return
-	// }
-	// findBy.Username = keys[0]
-	// var usrs []model.User
-	// usrs, err := u.userSvc.Find(findBy) // TODO check how to do this findBy optional
-	// if err != nil {
-	// 	http.Error(w, err.Error(), http.StatusInternalServerError)
-	// 	return
-	// }
-	// b, err := json.Marshal(usrs)
-	// if err != nil {
-	// 	http.Error(w, err.Error(), http.StatusInternalServerError)
-	// 	return
-	// }
+	var userID string
+	keys, ok := r.URL.Query()["userID"]
+	if !ok || len(keys[0]) < 1 {
+		log.Println("Url Param 'userID' is missing")
+		return
+	}
 
-	// w.Write(b)
+	userID = keys[0]
+	groups, err := g.groupSvc.Find(userID)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	if len(groups) == 0 {
+		w.Write([]byte("[]"))
+		return
+	}
+
+	b, err := json.Marshal(groups)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	w.Write(b)
 }
 
 func (g group) Get(w http.ResponseWriter, r *http.Request) {
