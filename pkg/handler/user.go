@@ -89,12 +89,17 @@ func (u user) Find(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	findBy.Username = keys[0]
-	var usrs []model.User
+
 	usrs, err := u.userSvc.Find(findBy) // TODO check how to do this findBy optional
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
+	if len(usrs) == 0 {
+		w.Write([]byte("[]"))
+		return
+	}
+
 	b, err := json.Marshal(usrs)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -124,7 +129,10 @@ func (u user) FindFriendships(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-
+	if len(users) == 0 {
+		w.Write([]byte("[]"))
+		return
+	}
 	b, err := json.Marshal(users)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
