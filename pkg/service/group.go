@@ -27,23 +27,10 @@ type Group struct {
 }
 
 func (g Group) Create(group model.GroupComplete) (model.Group, error) {
-	getBy := model.Group{
-		Name: group.Group.Name,
-	}
-	groupDB, err := repo.Group().Get(getBy, g.db)
-	if err != nil {
-		log.Printf("error getting the Group for Name %s:\n%s\n", group.Group.Name, err)
-		return groupDB, err
-	}
-	if groupDB.ID != "" {
-		// TODO return specific code
-		return groupDB, fmt.Errorf("error duplicate Group for Name %s", group.Group.Name)
-	}
-
 	// Create group and store all members or rollback
 	tx := g.db.Begin()
 	defer tx.Rollback()
-	groupDB, err = repo.Group().Create(group.Group, tx)
+	groupDB, err := repo.Group().Create(group.Group, tx)
 	if err != nil {
 		log.Printf("error creating the Group %+v:\n%s\n", group, err)
 		return groupDB, err
