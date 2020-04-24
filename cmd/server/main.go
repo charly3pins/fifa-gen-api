@@ -15,6 +15,7 @@ func main() {
 	fifaTeamHandler := handler.NewFifaTeam(service.NewFifaTeam())
 	fifaPlayerHandler := handler.NewFifaPlayer(service.NewFifaPlayer())
 	userHandler := handler.NewUser(service.NewUser(), service.NewFriendship())
+	groupHandler := handler.NewGroup(service.NewGroup(), service.NewUser())
 
 	// Routes
 	// FIFA information
@@ -44,6 +45,16 @@ func main() {
 	r.HandleFunc("/users/{id}/friendships", userHandler.UpdateFriendship).Methods("PUT")
 	// Get friendship between two users
 	r.HandleFunc("/users/{id}/friendships/{otherUserID}", userHandler.GetFriendship).Methods("GET")
+
+	// Groups
+	// Create a group
+	r.HandleFunc("/groups", groupHandler.Create).Methods("POST")
+	// Get a group
+	r.HandleFunc("/groups/{id}", groupHandler.Get).Methods("GET")
+	// Update group information (group and/or members)
+	r.HandleFunc("/groups/{id}", groupHandler.Update).Methods("PUT")
+	// Find groups by // TODO
+	r.HandleFunc("/groups", groupHandler.Find).Methods("GET")
 
 	http.ListenAndServe(":8000", r)
 }
