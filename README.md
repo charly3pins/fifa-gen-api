@@ -1,6 +1,6 @@
 # fifa-gen-api
 
-API for manage the FIFA tournaments generator:
+API for manage the FIFA tournaments generator. Used Go for the backend and Flutter for the app. You can find the app repo [here](https://github.com/charly3pins/fifa_gen)
 
 
 ## How to run
