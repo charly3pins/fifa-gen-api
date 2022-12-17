@@ -1,3 +1,5 @@
+migration-run: export POSTGRESQL_URL=postgresql://fifa_gen_dev:fifa_gen_dev@localhost:5431/fifa_gen_dev_db?sslmode=disable
+
 .PHONY: run
 ## Run service. Usage: 'make run'
 run: ; $(info running code…) @
@@ -15,36 +17,15 @@ down: ; $(info starting db…) @
 	docker-compose -f ./docker-compose.test.yml down;
 
 .PHONY: migration-create
-## Create migration. Usage: 'make migration-create name=some-name'
-migration-create: ; $(info creating migration...) @ ## Create migration
-	@ret=0; if [ -z $(name) ]; then \
-		ret=1; \
-		echo "Migration name not specified"; \
-	else \
-		go run cmd/migration/main.go create $(name); \
-	fi; exit $$ret
+## Creates a new migration usage: `migration-create name=<migration name>`
+migration-create:
+	@migrate create -dir ./cmd/migration/sqls -ext sql $(name)
 
 .PHONY: migration-run
-## Run migrations. Usage: 'make migration-run dir=(up|down) count=<number>[opt]'
-migration-run: ; $(info running migrations...) @ ## Create migration
-	@ret=0; if [ -z $(dir) ]; then \
-		ret=1; \
-		echo "Migration direction not specified (up|down)"; \
-	elif [ "$(dir)" != "up" ] && [ "$(dir)" != "down" ]; then \
-		ret=1; \
-		echo "Invalid direction provided: '$(dir)'"; \
-	else \
-		if ! [ -z $(count) ]; then \
-			if [ "`echo $(count) | egrep ^[1-9][0-9]*$$`" = "" ]; then \
-				ret=1; \
-				echo "Invalid count provided: '$(count)'"; \
-			else \
-				go run cmd/migration/main.go $(dir) $(count); \
-			fi; \
-		else \
-			go run cmd/migration/main.go $(dir); \
-		fi; \
-	fi; exit $(ret)
+## Runs migrations: `migration-run dir=[up,down] (optional count=[number of migrations])`
+migration-run:
+	$(info Running migrations...)
+	@migrate -database ${POSTGRESQL_URL} -path ./cmd/migration/sqls $(dir) $(count)
 
 # -- help
 
