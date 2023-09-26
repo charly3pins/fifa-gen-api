@@ -25,7 +25,7 @@ func NewDB() (*gorm.DB, error) {
 			Port:     "5431",
 			User:     "fifa_gen_dev",
 			Password: "fifa_gen_dev",
-			DbName:   "fifa",
+			DbName:   "fifa_gen_dev_db",
 			SslMode:  "disable",
 			Schema:   "generator",
 		},
@@ -44,7 +44,7 @@ func newConnection(c connectionOptions) (*gorm.DB, error) {
 			db.Exec(fmt.Sprintf("SET SEARCH_PATH to %s", schema))
 		}
 
-		db.LogMode(false) // Set to TRUE if wanna debug
+		db.LogMode(true) // Set to TRUE if wanna debug
 	}
 
 	return db, err
